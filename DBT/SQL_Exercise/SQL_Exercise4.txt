@@ -1,0 +1,146 @@
+1. Display the minimum Status in the Supplier table. 
+
+mysql> SELECT MIN(status) AS min_status
+    -> FROM S;
++------------+
+| min_status |
++------------+
+|         10 |
++------------+
+1 row in set (0.03 sec)
+  
+2. Display the maximum Weight in the Parts table.   
+
+mysql> SELECT MAX(weight) AS max_weight
+    -> FROM P;
++------------+
+| max_weight |
++------------+
+|       12.5 |
++------------+
+1 row in set (0.04 sec)
+
+3. Display the average Weight of the Parts. 
+
+mysql> SELECT AVG(weight) AS avg_weight
+    -> FROM P;
++-------------------+
+| avg_weight        |
++-------------------+
+| 8.666666666666666 |
++-------------------+
+1 row in set (0.00 sec)
+  
+4. Display the total Quantity sold for part ‘P1’.   
+
+mysql> SELECT SUM(Qty) AS total_qty_p1
+    -> FROM SPJ
+    -> WHERE `P#` = 'P1';
++--------------+
+| total_qty_p1 |
++--------------+
+|          700 |
++--------------+
+1 row in set (0.04 sec)
+
+5. Display the total Quantity sold for each part.  
+
+mysql> SELECT `P#`, SUM(Qty) AS total_qty
+    -> FROM SPJ
+    -> GROUP BY `P#`;
++----+-----------+
+| P# | total_qty |
++----+-----------+
+| P1 |       700 |
+| P2 |       200 |
+| P3 |       150 |
++----+-----------+
+3 rows in set (0.00 sec)
+ 
+6. Display the average Quantity sold for each part.   
+
+mysql> SELECT `P#`, AVG(Qty) AS avg_qty
+    -> FROM SPJ
+    -> GROUP BY `P#`;
++----+----------+
+| P# | avg_qty  |
++----+----------+
+| P1 | 350.0000 |
+| P2 | 200.0000 |
+| P3 | 150.0000 |
++----+----------+
+3 rows in set (0.00 sec)
+
+7. Display the maximum Quantity sold for each part, provided the maximum Quantity is greater than 800.   
+
+mysql> SELECT `P#`, MAX(Qty) AS max_qty
+    -> FROM SPJ
+    -> GROUP BY `P#`
+    -> HAVING MAX(Qty) > 800;
+Empty set (0.01 sec)
+
+8. Display the Status and the count of Suppliers with that Status.  
+
+mysql> SELECT status, COUNT(*) AS supplier_count
+    -> FROM S
+    -> GROUP BY status;
++--------+----------------+
+| status | supplier_count |
++--------+----------------+
+|     20 |              1 |
+|     10 |              1 |
+|     30 |              1 |
++--------+----------------+
+3 rows in set (0.00 sec)
+
+9. Display the count of Projects going on in different cities.   
+
+mysql> SELECT city, COUNT(*) AS project_count
+    -> FROM J
+    -> GROUP BY city;
++----------+---------------+
+| city     | project_count |
++----------+---------------+
+| London   |             1 |
+| Paris    |             1 |
+| New York |             1 |
++----------+---------------+
+3 rows in set (0.03 sec)
+
+10. What is the difference between COUNT(Status) and COUNT(*) ?   
+
+COUNT(Status) counts only non-NULL values in the Status column.
+
+COUNT(*) counts all rows, regardless of NULLs.
+
+Example: If a table has 5 rows and 1 of them has NULL in the Status column:
+
+COUNT(Status) → 4
+
+COUNT(*) → 5
+
+11. Display the Status and the Count of Suppliers with that Status in the following format 
+as shown below:-   
+Status   Count   
+Ten      1
+Twenty   2   
+Thirty   3
+
+mysql> SELECT
+    ->   CASE status
+    ->     WHEN 10 THEN 'Ten'
+    ->     WHEN 20 THEN 'Twenty'
+    ->     WHEN 30 THEN 'Thirty'
+    ->     ELSE CONCAT('Status ', status)
+    ->   END AS status_label,
+    ->   COUNT(*) AS supplier_count
+    -> FROM S
+    -> GROUP BY status;
++--------------+----------------+
+| status_label | supplier_count |
++--------------+----------------+
+| Twenty       |              1 |
+| Ten          |              1 |
+| Thirty       |              1 |
++--------------+----------------+
+3 rows in set (0.00 sec)

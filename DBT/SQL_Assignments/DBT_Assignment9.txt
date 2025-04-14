@@ -1,0 +1,104 @@
+                                          Assignment-9
+1) Write a query that lists each order number followed by the name of the customer who made the order. 
+
+ mysql> SELECT o.Onum, c.Cname
+    -> FROM Orders o
+    -> JOIN Customers c ON o.Cnum = c.Cnum;
++------+----------+
+| Onum | Cname    |
++------+----------+
+| 3003 | Hoffman  |
+| 3009 | Giovanni |
+| 3005 | Liu      |
+| 3010 | Grass    |
+| 3007 | Grass    |
+| 3011 | Clemens  |
+| 3008 | Clemens  |
+| 3003 | Hoffman  |
+| 3009 | Giovanni |
+| 3005 | Liu      |
+| 3010 | Grass    |
+| 3007 | Grass    |
+| 3011 | Clemens  |
+| 3008 | Clemens  |
+| 3006 | Cisneros |
+| 3001 | Cisneros |
+| 3002 | Pereira  |
++------+----------+
+17 rows in set (0.05 sec)
+
+2) Write a query that gives the names of both the salesperson and the customer for each order along with the order number. 
+
+mysql> SELECT o.Onum, c.Cname AS Customer_Name, s.Sname As Salesperson_Name
+    -> FROM Orders o
+    -> JOIN Customers c ON o.Cnum = c.Cnum
+    -> JOIN Salespeople s ON o.Snum = s.Snum;
++------+---------------+------------------+
+| Onum | Customer_Name | Salesperson_Name |
++------+---------------+------------------+
+| 3003 | Hoffman       | Peel             |
+| 3009 | Giovanni      | Axelrod          |
+| 3005 | Liu           | Serres           |
+| 3010 | Grass         | Serres           |
+| 3007 | Grass         | Serres           |
+| 3011 | Clemens       | Peel             |
+| 3008 | Clemens       | Peel             |
+| 3003 | Hoffman       | Peel             |
+| 3009 | Giovanni      | Axelrod          |
+| 3005 | Liu           | Serres           |
+| 3010 | Grass         | Serres           |
+| 3007 | Grass         | Serres           |
+| 3011 | Clemens       | Peel             |
+| 3008 | Clemens       | Peel             |
+| 3006 | Cisneros      | Rifkin           |
+| 3001 | Cisneros      | Rifkin           |
+| 3002 | Pereira       | Motika           |
++------+---------------+------------------+
+17 rows in set (0.00 sec)
+
+3) Write a query that produces all customers serviced by salespeople with a commission above 12%. Output the customer’s name, 
+the salesperson’s name, and the salesperson’s rate of commission. 
+
+mysql> SELECT c.Cname AS Customer_Name, s.Sname As Salesperson_Name, s.Comm AS Commision
+    -> FROM Customers c
+    -> JOIN Salespeople s ON c.Snum = s.Snum
+    -> WHERE s.Comm > 0.12;
++---------------+------------------+-----------+
+| Customer_Name | Salesperson_Name | Commision |
++---------------+------------------+-----------+
+| Liu           | Serres           |      0.13 |
+| Grass         | Serres           |      0.13 |
+| Liu           | Serres           |      0.13 |
+| Grass         | Serres           |      0.13 |
+| Cisneros      | Rifkin           |      0.15 |
++---------------+------------------+-----------+
+5 rows in set (0.00 sec)
+
+4) Write a query that calculates the amount of the salesperson’s commission on each order by a customer with a rating above 100.
+
+mysql> SELECT
+    ->     o.Onum,
+    ->     c.Cname AS Customer_Name,
+    ->     s.Sname AS Salesperson_Name,
+    ->     o.Amt AS Order_Amount,
+    ->     s.Comm AS Commission_Rate,
+    ->     (o.Amt * s.Comm) AS Commission_Amount
+    ->     FROM Orders o
+    ->     JOIN Customers c ON o.Cnum = c.Cnum
+    ->     JOIN Salespeople s ON o.Snum = s.Snum
+    ->     WHERE c.Rating > 100;
++------+---------------+------------------+--------------+-----------------+--------------------+
+| Onum | Customer_Name | Salesperson_Name | Order_Amount | Commission_Rate | Commission_Amount  |
++------+---------------+------------------+--------------+-----------------+--------------------+
+| 3010 | Grass         | Serres           |      1309.95 |            0.13 | 170.29348740601563 |
+| 3010 | Grass         | Serres           |      1309.95 |            0.13 | 170.29348740601563 |
+| 3007 | Grass         | Serres           |        75.75 |            0.13 |  9.847499638795853 |
+| 3007 | Grass         | Serres           |        75.75 |            0.13 |  9.847499638795853 |
+| 3005 | Liu           | Serres           |      5160.45 |            0.13 |  670.8585007836809 |
+| 3005 | Liu           | Serres           |      5160.45 |            0.13 |  670.8585007836809 |
+| 3006 | Cisneros      | Rifkin           |      1098.16 |            0.15 |   164.724011672497 |
+| 3001 | Cisneros      | Rifkin           |        18.69 |            0.15 |  2.803500191509727 |
+| 3009 | Giovanni      | Axelrod          |      1713.23 |            0.10 |  171.3230005997866 |
+| 3009 | Giovanni      | Axelrod          |      1713.23 |            0.10 |  171.3230005997866 |
++------+---------------+------------------+--------------+-----------------+--------------------+
+10 rows in set (0.04 sec)

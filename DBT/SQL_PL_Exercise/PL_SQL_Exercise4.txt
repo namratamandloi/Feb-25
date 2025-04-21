@@ -1,0 +1,179 @@
+1. The CUSTOMER table of a state electricity board consists of the following fields:-    
+   
+  Meter Number    Varchar    4   
+  Meter Type                   Char    1   
+              Previous Reading          Int    5   
+              Current Reading            Int    5   
+              Customer Type              Char    1   
+              Last Bill payment          Char    1 (values could be ‘Y’ or ‘N’)   
+   
+There are two types of meters viz. 3- phase or 1-phase coded as ‘T’ or ‘S’ 
+respectively. There are 4 types of customers viz. Agricultural Industrial, 
+Commercial and Residential with codes ‘A’ , ‘I’, ‘C’ and ‘R’ respectively.    
+   
+Formulae:-   
+Units used = Current Reading – Previous Reading   Rate 
+=Rs.1/ 1.25/ 1.50/ 1.30 for A/I/C/R respectively.   
+Amount = rate*units used   
+Surcharge = 5% for single phase    
+10% for 3 phase   
+Excise = 30% of (amount +Surcharge)   
+Net = Amount +Surcharge + Excise   
+   
+Write a block to calculate the bill for each customer. The program should insert the 
+Meter no., Units used, Rate, Amount, Surcharge, Excise duty and Net for each 
+customer into some other suitable table. Also, at the end, it should insert the total 
+Amount, Surcharge, Excise and Net into some other table.   
+
+
+
+create table customer , bill details , total bills
+
+mysql> CREATE TABLE CUSTOMER (
+    ->     meter_no VARCHAR(4),
+    ->     meter_type CHAR(1),           -- 'T' or 'S'
+    ->     previous_reading INT,
+    ->     current_reading INT,
+    ->     customer_type CHAR(1),        -- 'A', 'I', 'C', 'R'
+    ->     last_bill_payment CHAR(1)     -- 'Y' or 'N'
+    -> );
+Query OK, 0 rows affected (0.04 sec) 
+
+mysql> CREATE TABLE BILL_DETAIL (
+    ->     meter_no VARCHAR(4),
+    ->     units_used INT,
+    ->     rate DECIMAL(5,2),
+    ->     amount DECIMAL(10,2),
+    ->     surcharge DECIMAL(10,2),
+    ->     excise DECIMAL(10,2),
+    ->     net DECIMAL(10,2)
+    -> );
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> CREATE TABLE BILL_TOTALS (
+    ->     total_amount DECIMAL(10,2),
+    ->     total_surcharge DECIMAL(10,2),
+    ->     total_excise DECIMAL(10,2),
+    ->     total_net DECIMAL(10,2)
+    -> );
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> DELIMITER //
+mysql>
+mysql> CREATE PROCEDURE GenerateBills()
+    -> BEGIN
+    ->     -- Declare all variables first
+    ->     DECLARE done INT DEFAULT FALSE;
+    ->
+    ->     DECLARE v_meter_no VARCHAR(4);
+    ->     DECLARE v_meter_type CHAR(1);
+    ->     DECLARE v_prev INT;
+    ->     DECLARE v_curr INT;
+    ->     DECLARE v_cust_type CHAR(1);
+    ->
+    ->     DECLARE v_units INT;
+    ->     DECLARE v_rate DECIMAL(5,2);
+    ->     DECLARE v_amount DECIMAL(10,2);
+    ->     DECLARE v_surcharge DECIMAL(10,2);
+    ->     DECLARE v_excise DECIMAL(10,2);
+    ->     DECLARE v_net DECIMAL(10,2);
+    ->
+    ->     -- Totals
+    ->     DECLARE total_amount DECIMAL(10,2) DEFAULT 0;
+    ->     DECLARE total_surcharge DECIMAL(10,2) DEFAULT 0;
+    ->     DECLARE total_excise DECIMAL(10,2) DEFAULT 0;
+    ->     DECLARE total_net DECIMAL(10,2) DEFAULT 0;
+    ->
+    ->     -- Cursor declaration
+    ->     DECLARE cur CURSOR FOR
+    ->         SELECT meter_no, meter_type, previous_reading, current_reading, customer_type
+    ->         FROM CUSTOMER;
+    ->
+    ->     -- Handler declaration must come after cursor
+    ->     DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;
+    ->
+    ->     -- Start logic
+    ->     OPEN cur;
+    ->
+    ->     read_loop: LOOP
+    ->         FETCH cur INTO v_meter_no, v_meter_type, v_prev, v_curr, v_cust_type;
+    ->         IF done THEN
+    ->             LEAVE read_loop;
+    ->         END IF;
+    ->
+    ->         SET v_units = v_curr - v_prev;
+    ->
+    ->         SET v_rate = CASE v_cust_type
+    ->             WHEN 'A' THEN 1.00
+    ->             WHEN 'I' THEN 1.25
+    ->             WHEN 'C' THEN 1.50
+    ->             WHEN 'R' THEN 1.30
+    ->             ELSE 0
+    ->         END;
+    ->
+    ->         SET v_amount = v_units * v_rate;
+    ->
+    ->         SET v_surcharge = v_amount * CASE v_meter_type
+    ->             WHEN 'S' THEN 0.05
+    ->             WHEN 'T' THEN 0.10
+    ->             ELSE 0
+    ->         END;
+    ->
+    ->         SET v_excise = 0.30 * (v_amount + v_surcharge);
+    ->
+    ->         SET v_net = v_amount + v_surcharge + v_excise;
+    ->
+    ->         INSERT INTO BILL_DETAIL (meter_no, units_used, rate, amount, surcharge, excise, net)
+    ->         VALUES (v_meter_no, v_units, v_rate, v_amount, v_surcharge, v_excise, v_net);
+    ->
+    ->         SET total_amount = total_amount + v_amount;
+    ->         SET total_surcharge = total_surcharge + v_surcharge;
+    ->         SET total_excise = total_excise + v_excise;
+    ->         SET total_net = total_net + v_net;
+    ->     END LOOP;
+    ->
+    ->     CLOSE cur;
+    ->
+    ->     INSERT INTO BILL_TOTALS (total_amount, total_surcharge, total_excise, total_net)
+    ->     VALUES (total_amount, total_surcharge, total_excise, total_net);
+    -> END //
+Query OK, 0 rows affected (0.03 sec)
+
+mysql>
+mysql> DELIMITER ;
+mysql> CALL GenerateBills();
+Query OK, 1 row affected (0.01 sec)
+
+mysql> SELECT * FROM BILL_DETAIL;
+Empty set (0.00 sec)
+
+mysql> SELECT * FROM BILL_TOTALS;
++--------------+-----------------+--------------+-----------+
+| total_amount | total_surcharge | total_excise | total_net |
++--------------+-----------------+--------------+-----------+
+|         0.00 |            0.00 |         0.00 |      0.00 |
++--------------+-----------------+--------------+-----------+
+1 row in set (0.00 sec)
+
+mysql> INSERT INTO CUSTOMER (meter_no, meter_type, previous_reading, current_reading, customer_type, last_bill_payment)
+    -> VALUES
+    -> ('M001', 'S', 100, 150, 'A', 'Y'),
+    -> ('M002', 'T', 200, 300, 'I', 'N'),
+    -> ('M003', 'S', 50, 120, 'C', 'Y'),
+    -> ('M004', 'T', 400, 500, 'R', 'N'),
+    -> ('M005', 'S', 600, 750, 'R', 'Y');
+Query OK, 5 rows affected (0.03 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+mysql> SELECT * FROM BILL_DETAIL;
+Empty set (0.00 sec)
+
+mysql> SELECT * FROM BILL_TOTALS;
++--------------+-----------------+--------------+-----------+
+| total_amount | total_surcharge | total_excise | total_net |
++--------------+-----------------+--------------+-----------+
+|         0.00 |            0.00 |         0.00 |      0.00 |
++--------------+-----------------+--------------+-----------+
+1 row in set (0.00 sec)
+
+mysql>

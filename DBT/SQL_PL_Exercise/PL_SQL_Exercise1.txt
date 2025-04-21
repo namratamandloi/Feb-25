@@ -1,0 +1,184 @@
+1. Write a program that computes the perimeter and the area of a rectangle. 
+Define your own values for the length and width. 
+(Assuming that L and W are the length 
+and width of the rectangle, Perimeter = 2*(L+W) and Area = L*W.  
+
+
+mysql> DELIMITER //
+mysql> CREATE PROCEDURE RECTANGLE()
+    -> BEGIN
+    ->  DECLARE L FLOAT DEFAULT 10.5;
+    ->  DECLARE W FLOAT DEFAULT 5.7;
+    ->  DECLARE AREA FLOAT;
+    ->  DECLARE PERIMETER FLOAT;
+    ->
+    ->  SET AREA = L*W;
+    ->  SET PERIMETER = 2*(L+W);
+    ->
+    ->  SELECT AREA, PERIMETER;
+    -> END; //
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> DELIMITER ;
+mysql> CALL RECTANGLE();
++-------+-----------+
+| AREA  | PERIMETER |
++-------+-----------+
+| 59.85 |      32.4 |
++-------+-----------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+2. Write a program that declares an integer variable called num, assigns a value to it, 
+and computes and inserts into the tempp table the value of the variable itself, its 
+square, and its cube.   
+
+DELIMITER //
+CREATE PROCEDURE POWER()
+BEGIN 
+	DECLARE num INT DEFAULT 4;
+	DECLARE square INT;
+	DECLARE c INT;
+	
+	SET square = num*num;
+	SET c = num * num * num;
+	
+	CREATE TABLE tempp(
+		num INT,
+		square INT,
+		c INT
+	);
+	
+	INSERT INTO tempp VALUES (num,square,c);
+	SELECT * FROM tempp;
+	
+END;//
+
+DELIMITER ;
+
+mysql> call POWER();
++------+--------+------+
+| num  | square | c    |
++------+--------+------+
+|    4 |     16 |   64 |
++------+--------+------+
+1 row in set (0.09 sec)
+
+3. Convert a temperature in Fahrenheit (F) to its equivalent in Celsius (C) and vice 
+versa. The required formulae are:-  C= (F-32)*5/9    
+F= 9/5*C + 32   
+
+mysql> DELIMITER //
+mysql> CREATE PROCEDURE temperature()
+    -> BEGIN
+    ->  DECLARE F FLOAT DEFAULT 98.6;
+    ->  DECLARE C FLOAT DEFAULT 37;
+    ->  DECLARE C1 FLOAT;
+    ->  DECLARE F1 FLOAT;
+    ->
+    ->  SET C1 = (F - 32) * 5/9;
+    ->  SET F1 = (9 * C/5) + 32;
+    ->
+    ->  SELECT C1, F1;
+    ->
+    -> END; //
+Query OK, 0 rows affected (0.05 sec)
+
+mysql> DELIMITER ;
+mysql> call temperature();
++------+------+
+| C1   | F1   |
++------+------+
+|   95 | NULL |
++------+------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+4. Convert a number of inches into yards, feet, and inches. For example, 124 inches 
+equals 3 yards, 1 foot, and 4 inches.   
+
+mysql> CREATE PROCEDURE abc()
+    -> BEGIN
+    ->  DECLARE number_inches INT DEFAULT 80;
+    ->  DECLARE yards INT DEFAULT 6;
+    ->  DECLARE feet INT DEFAULT 8;
+    ->  DECLARE inches INT DEFAULT 9;
+    ->
+    ->  SET yards = number_inches DIV 36;
+    ->  SET number_inches = number_inches MOD 36;
+    ->  SET feet = number_inches DIV 12;
+    ->  SET inches = number_inches MOD 12;
+    ->
+    ->  SELECT yards, feet, inches;
+    ->  END; //
+Query OK, 0 rows affected (0.01 sec)
+
+mysql>  DELIMITER ;
+mysql> call abc();
++-------+------+--------+
+| yards | feet | inches |
++-------+------+--------+
+|     2 |    0 |      8 |
++-------+------+--------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec) 
+
+5. Write a program that enables a user to input an integer. The program should then 
+state whether the integer is evenly divisible by 5.    
+
+mysql> DELIMITER //
+mysql>   CREATE PROCEDURE divisibility(IN Number INT)
+    ->      BEGIN
+    ->          DECLARE Message VARCHAR(100);
+    ->
+    ->          IF Number % 5 = 0 THEN
+    ->              SET Message = 'The number is evenly divisible by 5.';
+    ->          ELSE
+    ->              SET Message = 'The number is not evenly divisible by 5.';
+    ->          END IF;
+    ->
+    ->          SELECT Message;
+    ->      END //
+
+Query OK, 0 rows affected (0.04 sec)
+mysql>   call divisibility(15);
++--------------------------------------+
+| Message                              |
++--------------------------------------+
+| The number is evenly divisible by 5. |
++--------------------------------------+
+1 row in set (0.04 sec)
+
+Query OK, 0 rows affected (0.04 sec)
+
+6. Your block should read in two real numbers and tell whether the product of the two 
+numbers is equal to or greater than 100. 
+
+mysql> DELIMITER //
+mysql>
+mysql>    CREATE PROCEDURE CheckProduct(IN Num1 FLOAT, IN Num2 FLOAT)
+    ->       BEGIN
+    ->          DECLARE Product FLOAT;
+    ->          DECLARE Message VARCHAR(100);
+    ->
+    ->          SET Product = Num1 * Num2;
+    ->
+    ->          IF Product >= 100 THEN
+    ->             SET Message = 'The product is equal to or greater than 100.';
+    ->          ELSE
+    ->              SET Message = 'The product is less than 100.';
+    ->          END IF;
+    ->
+    ->          SELECT Message;
+    ->      END //
+Query OK, 0 rows affected (0.05 sec)
+
+
+
+
+
+
+

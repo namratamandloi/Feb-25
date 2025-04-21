@@ -1,0 +1,21 @@
+1)	Which field of the Customers table is the primary key?
+CustomerID is the primary key — it uniquely identifies each customer in the table.
+
+2)	What is the 4th column of the Customers table?
+The 4th column is Country, assuming the table follows the standard order:
+
+CustomerID, CustomerName, ContactName, Country
+
+3)	What is another word for row? For column?
+Another word for row: Record
+Another word for Column:Field
+
+4)	Why isn’t it possible to see the first five rows of a table?
+It's not possible unless you explicitly request it using a SQL query.
+Tables in relational databases do not have a guaranteed order by default, and simply opening a table doesn't automatically show only the first five rows. To see them, you would use a query like:
+
+SELECT * FROM Customers LIMIT 5;
+
+Or in SQL Server:
+
+SELECT TOP 5 * FROM Customers;

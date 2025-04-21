@@ -1,0 +1,48 @@
+1) Write a query that selects all customers whose ratings are equal to or greater than 
+ANY of Serres’.  
+
+mysql> SELECT *
+    -> FROM Customers
+    -> WHERE Rating >= ANY (SELECT Rating FROM Customers WHERE Cname = 'Serres');
+Empty set (0.00 sec)
+
+2) Write a query using ANY or ALL that will find all salespeople who have no 
+customers located in their city.  
+
+mysql> SELECT *
+    -> FROM Salespeople
+    -> WHERE Snum NOT IN (SELECT Snum FROM Customers WHERE City = Salespeople.City);
++------+---------+-----------+------+
+| Snum | Sname   | City      | Comm |
++------+---------+-----------+------+
+| 1004 | Motika  | London    | 0.11 |
+| 1007 | Rifkin  | Barcelona | 0.15 |
+| 1003 | Axelrod | New York  | 0.10 |
++------+---------+-----------+------+
+3 rows in set (0.03 sec)
+
+3) Write a query that selects all orders for amounts greater than any for the 
+customers in London.  
+
+mysql> SELECT *
+    -> FROM Orders
+    -> WHERE Amt > ANY (SELECT Amt FROM Orders WHERE Cnum IN (SELECT Cnum FROM Customers WHERE City = 'London'));
++------+---------+------------+------+------+
+| Onum | Amt     | Odate      | Cnum | Snum |
++------+---------+------------+------+------+
+| 3002 | 1900.10 | 1990-10-03 | 2007 | 1004 |
+| 3005 | 5160.45 | 1990-10-03 | 2003 | 1002 |
+| 3006 | 1098.16 | 1990-10-03 | 2008 | 1007 |
+| 3009 | 1713.23 | 1990-10-04 | 2002 | 1003 |
+| 3008 | 4723.00 | 1990-10-05 | 2006 | 1001 |
+| 3010 | 1309.95 | 1990-10-06 | 2004 | 1002 |
+| 3011 | 9891.88 | 1990-10-06 | 2006 | 1001 |
++------+---------+------------+------+------+
+7 rows in set (0.03 sec)
+
+4) Write the above query using MIN or MAX. 
+
+mysql> SELECT *
+    -> FROM Orders
+    -> WHERE Amt > (SELECT MAX(Amt) FROM Orders WHERE Cnum IN (SELECT Cnum FROM Customers WHERE City = 'London'));
+Empty set (0.00 sec)

@@ -1,0 +1,100 @@
+1. Write a stored function to take three parameters, the sides of a triangle. The sides of 
+the triangle should be accepted from the user.  The function should return a Boolean 
+value:- true if the triangle is valid, false otherwise. A triangle is valid if the length 
+of each side is less than the sum of the lengths of the other two sides.  Check if the 
+dimensions entered can form a valid triangle.
+
+mysql> DELIMITER //
+mysql>
+mysql> CREATE FUNCTION IsValidTriangle(a DECIMAL(10,2), b DECIMAL(10,2), c DECIMAL(10,2))
+    -> RETURNS BOOLEAN
+    -> DETERMINISTIC
+    -> BEGIN
+    ->     DECLARE is_valid BOOLEAN DEFAULT FALSE;
+    ->
+    ->     IF a + b > c AND a + c > b AND b + c > a THEN
+    ->         SET is_valid = TRUE;
+    ->     END IF;
+    ->
+    ->     RETURN is_valid;
+    -> END //
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> SELECT IsValidTriangle(5, 7, 10) AS ValidTriangle;
++---------------+
+| ValidTriangle |
++---------------+
+|             1 |
++---------------+
+1 row in set (0.01 sec)
+
+2. Write a function that generates a random number between 1 and 10.  Use any logic 
+of your choice to achieve this.    
+
+
+mysql> DELIMITER //
+mysql>
+mysql> CREATE FUNCTION GenerateRandomNumber()
+    -> RETURNS INT
+    -> DETERMINISTIC
+    -> BEGIN
+    ->     RETURN FLOOR(1 + (RAND() * 10));
+    -> END //
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> SELECT GenerateRandomNumber() AS RandomNumber;
++--------------+
+| RandomNumber |
++--------------+
+|           10 |
++--------------+
+1 row in set (0.00 sec)
+
+3. Create a function that accepts a string of n characters and exchanges the first 
+character with the last, the second with the next – to – last, and so forth until n 
+exchanges have been made. What will the final string look like? Write the function 
+to verify your conclusion.   
+
+mysql> DELIMITER //
+mysql>
+mysql> CREATE FUNCTION SwapCharacters(input_str VARCHAR(255))
+    -> RETURNS VARCHAR(255)
+    -> DETERMINISTIC
+    -> BEGIN
+    ->     DECLARE n INT;
+    ->     DECLARE i INT DEFAULT 1;
+    ->     DECLARE j INT;
+    ->     DECLARE swapped_str VARCHAR(255) DEFAULT '';
+    ->
+    ->     SET n = CHAR_LENGTH(input_str);
+    ->     SET j = n;
+    ->
+    ->     WHILE i <= n DO
+    ->         IF i <= CEIL(n / 2) THEN
+    ->             SET swapped_str = CONCAT(
+    ->                 swapped_str,
+    ->                 SUBSTRING(input_str, j, 1)
+    ->             );
+    ->             SET j = j - 1;
+    ->         ELSE
+    ->             SET swapped_str = CONCAT(
+    ->                 swapped_str,
+    ->                 SUBSTRING(input_str, n - i + 1, 1)
+    ->             );
+    ->         END IF;
+    ->         SET i = i + 1;
+    ->     END WHILE;
+    ->
+    ->     RETURN swapped_str;
+    ->     SELECT 
+    -> END //
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> DELIMITER ;
+mysql> SELECT SwapCharacters('abcdef') AS FinalString;
++-------------+
+| FinalString |
++-------------+
+| fedcba      |
++-------------+
+1 row in set (0.00 sec)

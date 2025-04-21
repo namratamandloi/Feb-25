@@ -1,0 +1,62 @@
+1. Write a stored procedure by the name of Comp_intr to calculate the amount of 
+interest on a bank account that compounds interest yearly. The formula is:-         
+I 
+= p (1+ r) y – p    
+where:-    
+I is the total interest earned.     
+p is the principal.           
+r is the rate of interest as a decimal less than 1, and    
+y  is the number of years the money is earning interest.    
+Your stored procedure should accept the values of p, r and y as parameters and insert 
+the Interest and Total amount into tempp table.      
+
+mysql> CREATE TABLE IF NOT EXISTS tempp (
+    ->     Interest DECIMAL(15,2),
+    ->     TotalAmount DECIMAL(15,2)
+    -> );
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+mysql> DELIMITER //
+mysql>
+mysql> CREATE PROCEDURE Comp_intr(
+    ->     IN p DECIMAL(15,2),
+    ->     IN r DECIMAL(5,4),
+    ->     IN y INT
+    -> )
+    -> BEGIN
+    ->     DECLARE interest DECIMAL(15,2);
+    ->     DECLARE total_amount DECIMAL(15,2);
+    ->
+    ->     SET interest = (p * POW((1 + r), y)) - p;
+    ->
+    ->     SET total_amount = p + interest;
+    ->
+    ->     INSERT INTO tempp (Interest, TotalAmount)
+    ->     VALUES (interest, total_amount);
+    -> END //
+Query OK, 0 rows affected (0.02 sec)
+
+2. Create a stored function by the name of Age_calc.  Your stored function should 
+accept the date of birth of a person as a parameter.  The stored function should 
+calculate the age of the person in years. The stored function should return the age 
+in years.   
+
+mysql> CREATE FUNCTION Age_calc(dob DATE)
+    -> RETURNS INT
+    -> DETERMINISTIC
+    -> BEGIN
+    ->     DECLARE age INT;
+    ->
+    ->     SET age = TIMESTAMPDIFF(YEAR, dob, CURDATE());
+    ->
+    ->     RETURN age;
+    -> END //
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> SELECT Age_calc('2000-05-15') AS AgeInYears;
++------------+
+| AgeInYears |
++------------+
+|         24 |
++------------+
+1 row in set (0.00 sec)

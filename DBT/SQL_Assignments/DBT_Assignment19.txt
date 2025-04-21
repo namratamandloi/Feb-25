@@ -1,0 +1,18 @@
+1) Create a view that shows all of the customers who have the highest ratings.
+---> CREATE VIEW HighestRatedCustomers AS
+SELECT cnum, name, rating FROM Customers WHERE rating = (SELECT MAX(rating) FROM Customers);
+
+2) Create a view that shows the number of salespeople in each city.
+---> CREATE VIEW SalespeopleByCity AS
+SELECT city, COUNT(snum) AS num_salespeople FROM Salespeople GROUP BY city;
+
+3) Create a view that shows the average and total orders for each salesperson after his or her name. Assume all names are unique.
+---> CREATE VIEW SalespersonOrdersSummary AS
+SELECT s.name, 
+AVG(o.amt) AS avg_order_amount, SUM(o.amt) AS total_order_amount FROM Salespeople s
+JOIN Orders o ON s.snum = o.snum GROUP BY s.name;
+
+4) Create a view that shows each salesperson with multiple customers.
+---> CREATE VIEW SalespeopleWithMultipleCustomers AS
+SELECT s.snum, s.name, COUNT(DISTINCT c.cnum) AS num_customers FROM Salespeople s
+JOIN Customers c ON s.snum = c.snum GROUP BY s.snum, s.name HAVING COUNT(DISTINCT c.cnum) > 1;

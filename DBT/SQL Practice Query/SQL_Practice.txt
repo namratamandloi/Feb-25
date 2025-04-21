@@ -1,0 +1,108 @@
+1. SELECT ..... display the ENAMEs with the initial letter capital
+e.g.
+EMP
+------
+ENAME
+-----------
+SCOTT
+KING
+output
+----------
+Scott
+King
+
+----> SELECT Concat(Upper(left(Ename,1), Lower(substring(Ename,2)) FROM S;
+
+2. SELECT ..... display the ENAMEs centre-justified. Assume screen width is 60 characters.
+e.g.
+ENAME
+----------
+SCOTT
+KING
+output
+---------
+28 *'s SCOTT 27 *'s
+28 *'s KING 28 *'s
+----> SELECT(RPAD(ENAME, LENGTH(ENAME) + CEIL((60 - LENGTH(ENAME)) / 2), '*'), 60, '*') FROM EMP;
+
+3. SELECT ..... display the starting position of the second occurrence of the string ‘un’ in the ENAME column.
+e.g.
+ENAME
+----------
+Arun Purun
+Tarun Arun
+Sirun Kirun
+Nutan Purun
+output
+---------
+9
+9
+10
+0
+---> SELECT 
+  CASE 
+    WHEN INSTR(ENAME, 'un', INSTR(ENAME, 'un') + 1) > 0 
+    THEN INSTR(ENAME, 'un', INSTR(ENAME, 'un') + 1)
+    ELSE 0
+  END AS SECOND_UN_POSITION
+FROM EMP;
+
+4. SELECT ..... spell out the SAL column up to 5 million (ignore paise)
+e.g.
+EMP
+------
+SAL
+------
+3000
+4500
+output
+----------
+Three thousand
+Four thousand Five hundred
+
+----> SELECT ENAME, SAL,
+  CASE SAL
+    WHEN 3000 THEN 'Three Thousand'
+    WHEN 4500 THEN 'Four Thousand Five Hundred'
+    WHEN 5000 THEN 'Five Thousand'
+    ELSE 'Amount Not Handled'
+  END AS SAL
+FROM EMP;
+
+5. SELECT ..... display the ENAMEs with the vowels removed
+e.g.
+EMP
+------
+ENAME
+----------
+King
+Scott
+Anita
+output
+---------
+Kng
+Sctt
+nt
+---> SELECT 
+  REPLACE( REPLACE (REPLACE (REPLACE( REPLACE( ENAME, 'A', ''),'E', ''), 'I', ''), 'O', ''), 'U', '') AS ENAME_NO_VOWELS FROM EMP;
+
+6. SELECT .......... sysdate() - hiredate
+Display the experience of the employees in years, remainder months, days, hours, minutes, and seconds
+e.g.
+HIREDATE -> 2023-07-01 10:15:04
+SYSDATE -> 2024-09-24 14:30:45
+output
+----------
+1 year, 2 months, 23 days, 4 hours, 15 minutes, 41 seconds
+----> 
+SELECT 
+  ENAME,
+  HIREDATE,
+  SYSDATE AS CURRENT_DATE,
+  FLOOR(MONTHS_BETWEEN(SYSDATE, HIREDATE) / 12) AS YEARS,
+  MOD(FLOOR(MONTHS_BETWEEN(SYSDATE, HIREDATE)), 12) AS MONTHS,
+  TRUNC(SYSDATE - ADD_MONTHS(HIREDATE, FLOOR(MONTHS_BETWEEN(SYSDATE, HIREDATE)))) AS DAYS,
+  TO_CHAR(TRUNC(SYSDATE - HIREDATE), 'HH24') AS HOURS,
+  TO_CHAR(TRUNC(SYSDATE - HIREDATE), 'MI') AS MINUTES,
+  TO_CHAR(TRUNC(SYSDATE - HIREDATE), 'SS') AS SECONDS
+FROM EMP;

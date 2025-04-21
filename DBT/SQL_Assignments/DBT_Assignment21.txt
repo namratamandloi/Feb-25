@@ -1,0 +1,28 @@
+1) Give Amit the right to change the ratings of the customers.
+--->GRANT UPDATE(rating) ON Customers TO Amit;
+
+2) Give Manoj the right to give other users the right to query the Orders table.
+--->GRANT SELECT ON Orders TO Manoj WITH GRANT OPTION;
+
+3) Take the INSERT privilege on Salespeople away from Ajita.
+--->REVOKE INSERT ON Salespeople FROM Ajita;
+
+4) Grant Abhijeet the right to insert or update the Customers table while keeping her possible rating values in the range of 100 to 500.
+---> GRANT INSERT, UPDATE ON Customers TO Abhijeet;
+
+CREATE TRIGGER CheckRating BEFORE INSERT OR UPDATE ON Customers
+FOR EACH ROW
+BEGIN
+  IF NEW.rating < 100 OR NEW.rating > 500 THEN
+    SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Rating must be between 100 and 500';
+  END IF;
+END;
+
+
+5) Allow Vikram to query the Customers table, but restrict his access to those customers whose rating is the lowest.
+--->GRANT SELECT ON Customers TO Vikram;
+
+CREATE VIEW VikramCustomers AS
+SELECT * FROM Customers WHERE rating = (SELECT MIN(rating) FROM Customers);
+
+GRANT SELECT ON VikramCustomers TO Vikram;

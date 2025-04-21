@@ -1,0 +1,105 @@
+ 1. Write a Before Insert trigger on Ord_dtl.  Anytime a row is inserted in Ord_dtl, the 
+Booked_qty in Prod_mst should be increased accordingly.
+  
+mysql> CREATE TABLE Ord_mst (
+    ->     Ord_no INT PRIMARY KEY,
+    ->     Cust_cd VARCHAR(10),
+    ->     Status CHAR(1)
+    -> );
+Query OK, 0 rows affected (0.04 sec
+
+mysql> INSERT INTO Prod_mst VALUES
+    -> ('P1', 'Floppies', 10000, 1000),
+    -> ('P2', 'Printers', 5000, 600),
+    -> ('P3', 'Modems', 3000, 200);
+Query OK, 3 rows affected (0.02 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+mysql> INSERT INTO Ord_mst VALUES
+    -> (1, 'C1', 'P');  -- 'P' = Pending
+Query OK, 1 row affected (0.00 sec)
+
+mysql> INSERT INTO Ord_dtl VALUES
+    -> (1, 'P1', 100),
+    -> (1, 'P2', 200);
+Query OK, 2 rows affected (0.01 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+   
+2. Write a Before Delete trigger on Ord_dtl.  Anytime a row is deleted from Ord_dtl, the 
+Booked_qty in Prod_mst should be decreased accordingly.   
+
+mysql> CREATE TRIGGER trg_before_insert_OrdDtl
+    -> BEFORE INSERT ON Ord_dtl
+    -> FOR EACH ROW
+    -> BEGIN
+    ->     UPDATE Prod_mst
+    ->     SET Booked_qty = Booked_qty + NEW.Qty
+    ->     WHERE Prod_cd = NEW.Prod_cd;
+    -> END //
+Query OK, 0 rows affected (0.02 sec)
+
+3. Write a Before Update of Prod_cd, Qty trigger on Ord_dtl. Anytime the Prod_cd or Qty is updated, the Booked_qty in Prod_mst should be increased/decreased accordingly.
+
+mysql> CREATE TRIGGER trg_before_delete_OrdDtl
+    -> BEFORE DELETE ON Ord_dtl
+    -> FOR EACH ROW
+    -> BEGIN
+    ->     UPDATE Prod_mst
+    ->     SET Booked_qty = Booked_qty - OLD.Qty
+    ->     WHERE Prod_cd = OLD.Prod_cd;
+    -> END //
+Query OK, 0 rows affected (0.02 sec)
+
+4. Write a Before Update of Status trigger on Ord_mst.  If the Status is updated from P 
+(Pending) to D (Delivered), the Booked_qty and Qty_in_stock from Prod_mst should 
+be decreased accordingly.  If the Status is updated from P (Pending) to C (Cancelled), 
+the details of the order should be deleted from Ord_dtl and corresponding Booked_qty 
+from Prod_mst should be decreased accordingly.  (The Before delete trigger on Ord_dtl 
+would automatically decrease the Booked_qty from Prod_mst).  
+
+mysql> CREATE TRIGGER trg_before_update_status_ordmst
+    -> BEFORE UPDATE ON Ord_mst
+    -> FOR EACH ROW
+    -> BEGIN
+    ->     DECLARE v_prod_cd VARCHAR(10);
+    ->     DECLARE v_qty INT;
+    ->     DECLARE done INT DEFAULT 0;
+    ->
+    ->     -- Cursor to select all products for the order
+    ->     DECLARE cur CURSOR FOR
+    ->         SELECT Prod_cd, Qty FROM Ord_dtl WHERE Ord_no = OLD.Ord_no;
+    ->
+    ->     DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = 1;
+    ->
+    ->     -- Check if status is changing from 'P'
+    ->     IF OLD.Status = 'P' THEN
+    ->
+    ->         -- Case 1: P → D (Delivered)
+    ->         IF NEW.Status = 'D' THEN
+    ->             OPEN cur;
+    ->             read_loop: LOOP
+    ->                 FETCH cur INTO v_prod_cd, v_qty;
+    ->                 IF done THEN
+    ->                     LEAVE read_loop;
+    ->                 END IF;
+    ->                 -- Decrease Qty_in_stock and Booked_qty
+    ->                 UPDATE Prod_mst
+    ->                 SET
+    ->                     Qty_in_stock = Qty_in_stock - v_qty,
+    ->                     Booked_qty = Booked_qty - v_qty
+    ->                 WHERE Prod_cd = v_prod_cd;
+    ->             END LOOP;
+    ->             CLOSE cur;
+    ->
+    ->         -- Case 2: P → C (Cancelled)
+    ->         ELSEIF NEW.Status = 'C' THEN
+    ->             -- Delete order details
+    ->             DELETE FROM Ord_dtl WHERE Ord_no = OLD.Ord_no;
+    ->             -- BEFORE DELETE trigger will adjust Booked_qty automatically
+    ->         END IF;
+    ->
+    ->     END IF;
+    -> END //
+Query OK, 0 rows affected (0.01 sec)
+

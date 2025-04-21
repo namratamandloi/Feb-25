@@ -1,0 +1,150 @@
+mysql> CREATE TABLE DataSet (
+    ->     id INT AUTO_INCREMENT PRIMARY KEY,
+    ->     number_value INT,          -- For Task 1: Number in range
+    ->     side1 INT,                 -- For Task 2: Triangle sides
+    ->     side2 INT,
+    ->     side3 INT,
+    ->     year_value INT,            -- For Task 3: Leap year check
+    ->     string1 VARCHAR(100),      -- For Task 4: String containment
+    ->     string2 VARCHAR(100)
+    -> );
+Query OK, 0 rows affected (0.06 sec)
+
+mysql> INSERT INTO DataSet (number_value, side1, side2, side3, year_value, string1, string2) VALUES
+    -> (5, 3, 4, 5, 2020, 'hello world', 'world'),
+    -> (15, 1, 2, 3, 1900, 'test string', 'no'),
+    -> (8, 6, 6, 6, 2000, 'abc123', '123'),
+    -> (0, 5, 10, 25, 2023, 'something', 'thing'),
+    -> (10, 7, 10, 5, 2016, 'data science', 'sci');
+Query OK, 5 rows affected (0.04 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+1. Select from any table a number and determine whether it is within a given range (for example, between 1 and 10).
+
+mysql> DELIMITER //
+mysql>
+mysql> CREATE PROCEDURE CheckNumberRange()
+    -> BEGIN
+    ->     SELECT id, number_value,
+    ->            CASE
+    ->                WHEN number_value BETWEEN 1 AND 10 THEN 'Within Range'
+    ->                ELSE 'Out of Range'
+    ->            END AS RangeStatus
+    ->     FROM DataSet;
+    -> END //
+Query OK, 0 rows affected (0.01 sec)
+
+mysql>
+mysql> DELIMITER ;
+mysql>  call CheckNumberRange();
++----+--------------+--------------+
+| id | number_value | RangeStatus  |
++----+--------------+--------------+
+|  1 |            5 | Within Range |
+|  2 |           15 | Out of Range |
+|  3 |            8 | Within Range |
+|  4 |            0 | Out of Range |
+|  5 |           10 | Within Range |
++----+--------------+--------------+
+5 rows in set (0.03 sec)
+
+Query OK, 0 rows affected (0.04 sec)
+
+
+2. Select from any table three positive integers representing the sides of a triangle, and 
+determine whether they form a valid triangle. Hint: In a triangle, the sum of any two 
+sides must always be greater than the third side.      
+
+mysql>
+mysql> CREATE PROCEDURE CheckTriangleValidity()
+    -> BEGIN
+    ->     SELECT id, side1, side2, side3,
+    ->            CASE
+    ->                WHEN side1 + side2 > side3 AND side1 + side3 > side2 AND side2 + side3 > side1
+    ->                THEN 'Valid Triangle'
+    ->                ELSE 'Invalid Triangle'
+    ->            END AS TriangleStatus
+    ->     FROM DataSet;
+    -> END //
+Query OK, 0 rows affected (0.03 sec)
+
+mysql>
+mysql> DELIMITER ;
+mysql> call CheckTriangleValidity();
++----+-------+-------+-------+------------------+
+| id | side1 | side2 | side3 | TriangleStatus   |
++----+-------+-------+-------+------------------+
+|  1 |     3 |     4 |     5 | Valid Triangle   |
+|  2 |     1 |     2 |     3 | Invalid Triangle |
+|  3 |     6 |     6 |     6 | Valid Triangle   |
+|  4 |     5 |    10 |    25 | Invalid Triangle |
+|  5 |     7 |    10 |     5 | Valid Triangle   |
++----+-------+-------+-------+------------------+
+5 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
+3. Check if a given a year is a leap year. The condition is:- year should be (divisible by 4 
+and not divisible by 100) or (divisible by 4 and divisible by 400.). The year should be 
+Selected from some table.    
+
+mysql>
+mysql> CREATE PROCEDURE CheckLeapYear()
+    -> BEGIN
+    ->     SELECT id, year_value,
+    ->            CASE
+    ->                WHEN (year_value % 4 = 0 AND year_value % 100 != 0) OR (year_value % 400 = 0)
+    ->                THEN 'Leap Year'
+    ->                ELSE 'Not a Leap Year'
+    ->            END AS LeapYearStatus
+    ->     FROM DataSet;
+    -> END //
+Query OK, 0 rows affected (0.03 sec)
+
+mysql>
+mysql> DELIMITER ;
+mysql> call CheckLeapYear();
++----+------------+-----------------+
+| id | year_value | LeapYearStatus  |
++----+------------+-----------------+
+|  1 |       2020 | Leap Year       |
+|  2 |       1900 | Not a Leap Year |
+|  3 |       2000 | Leap Year       |
+|  4 |       2023 | Not a Leap Year |
+|  5 |       2016 | Leap Year       |
++----+------------+-----------------+
+5 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
+4. Write a program that Selects from any table two character strings.  Your program should 
+then determine if one character string exists inside another character string.   
+
+mysql> DELIMITER //
+mysql>
+mysql> CREATE PROCEDURE CheckStringContainment()
+    -> BEGIN
+    ->     SELECT id, string1, string2,
+    ->            CASE
+    ->                WHEN INSTR(string1, string2) > 0 THEN 'String2 is inside String1'
+    ->                ELSE 'String2 is NOT inside String1'
+    ->            END AS ContainmentStatus
+    ->     FROM DataSet;
+    -> END //
+Query OK, 0 rows affected (0.03 sec)
+
+mysql>
+mysql> DELIMITER ;
+mysql> call CheckStringContainment();
++----+--------------+---------+-------------------------------+
+| id | string1      | string2 | ContainmentStatus             |
++----+--------------+---------+-------------------------------+
+|  1 | hello world  | world   | String2 is inside String1     |
+|  2 | test string  | no      | String2 is NOT inside String1 |
+|  3 | abc123       | 123     | String2 is inside String1     |
+|  4 | something    | thing   | String2 is inside String1     |
+|  5 | data science | sci     | String2 is inside String1     |
++----+--------------+---------+-------------------------------+
+5 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)

@@ -1,0 +1,18 @@
+1) Write a command that will enable a user to pull orders grouped by date out of the 
+Orders table quickly.
+mysql> SELECT order_date, COUNT(*) FROM Orders GROUP BY order_date;
+Empty set (0.01 sec)
+
+2) If the Orders table has already been created, how can you force the onum field to 
+be unique (assume all current values are unique)? 
+mysql> ALTER TABLE Orders ADD CONSTRAINT unique_onum UNIQUE (onum);
+Query OK, 0 rows affected, 1 warning (0.03 sec)
+Records: 0  Duplicates: 0  Warnings: 1
+
+3) Create an index that would permit each salesperson to retrieve his or her orders 
+grouped by date quickly. 
+mysql> ALTER TABLE Orders ADD CONSTRAINT unique_onum UNIQUE (onum);
+
+4) Let us assume that each salesperson is to have only one customer of a given 
+rating, and that this is currently the case. Enter a command that enforces it.
+mysql> ALTER TABLE Customers ADD CONSTRAINT unique_salesperson_rating UNIQUE (salesperson_id, rating);

@@ -1,0 +1,468 @@
+1. Write a program containing a loop that iterates from 1 to 1000 using a variable I,                         
+which is incremented each time around the loop. The program should output the 
+value of I every hundred iterations (i.e., the output should be 100, 200, etc.). 
+
+mysql> DELIMITER //
+mysql>
+mysql> CREATE PROCEDURE PrintHundreds()
+    -> BEGIN
+    ->     DECLARE i INT DEFAULT 1;
+    ->
+    ->     WHILE i <= 1000 DO
+    ->         IF i MOD 100 = 0 THEN
+    ->             SELECT i;
+    ->         END IF;
+    ->         SET i = i + 1;
+    ->     END WHILE;
+    -> END //
+Query OK, 0 rows affected (0.02 sec)
+
+mysql>
+mysql> DELIMITER ;
+mysql> call PrintHundreds();
++------+
+| i    |
++------+
+|  100 |
++------+
+1 row in set (0.00 sec)
+
++------+
+| i    |
++------+
+|  200 |
++------+
+1 row in set (0.00 sec)
+
++------+
+| i    |
++------+
+|  300 |
++------+
+1 row in set (0.01 sec)
+
++------+
+| i    |
++------+
+|  400 |
++------+
+1 row in set (0.01 sec)
+
++------+
+| i    |
++------+
+|  500 |
++------+
+1 row in set (0.01 sec)
+
++------+
+| i    |
++------+
+|  600 |
++------+
+1 row in set (0.01 sec)
+
++------+
+| i    |
++------+
+|  700 |
++------+
+1 row in set (0.02 sec)
+
++------+
+| i    |
++------+
+|  800 |
++------+
+1 row in set (0.02 sec)
+
++------+
+| i    |
++------+
+|  900 |
++------+
+1 row in set (0.03 sec)
+
++------+
+| i    |
++------+
+| 1000 |
++------+
+1 row in set (0.03 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+2. Write a program that examines all the numbers from 1 to 999, displaying all those 
+for which the sum of the cubes of the digits equal the number itself.   
+
+
+mysql> DELIMITER //
+mysql>
+mysql> CREATE PROCEDURE FindArmstrongNumbers()
+    -> BEGIN
+    ->     DECLARE num INT DEFAULT 1;
+    ->     DECLARE a INT;
+    ->     DECLARE b INT;
+    ->     DECLARE c INT;
+    ->     DECLARE sumOfCubes INT;
+    ->
+    ->     WHILE num <= 999 DO
+    ->         SET a = FLOOR(num / 100);                -- Hundreds place
+    ->         SET b = FLOOR((num % 100) / 10);          -- Tens place
+    ->         SET c = num % 10;                         -- Units place
+    ->
+    ->         SET sumOfCubes = POW(a,3) + POW(b,3) + POW(c,3);
+    ->
+    ->         IF sumOfCubes = num THEN
+    ->             SELECT num AS ArmstrongNumber;
+    ->         END IF;
+    ->
+    ->         SET num = num + 1;
+    ->     END WHILE;
+    -> END //
+Query OK, 0 rows affected (0.01 sec)
+
+
+mysql> DELIMITER ;
+mysql> call FindArmstrongNumbers();
++-----------------+
+| ArmstrongNumber |
++-----------------+
+|               1 |
++-----------------+
+1 row in set (0.00 sec)
+
++-----------------+
+| ArmstrongNumber |
++-----------------+
+|             153 |
++-----------------+
+1 row in set (0.01 sec)
+
++-----------------+
+| ArmstrongNumber |
++-----------------+
+|             370 |
++-----------------+
+1 row in set (0.01 sec)
+
++-----------------+
+| ArmstrongNumber |
++-----------------+
+|             371 |
++-----------------+
+1 row in set (0.01 sec)
+
++-----------------+
+| ArmstrongNumber |
++-----------------+
+|             407 |
++-----------------+
+1 row in set (0.02 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+3. Write a program that Selects from any table a minimum and maximum value for a 
+radius, along with an increment factor, and generates a series of radii by repeatedly 
+adding the increment to the minimum until the maximum is reached. For each value 
+of the radius, compute and display the circumference, area, and volume of the 
+sphere. (Be sure to include both the maximum and the minimum values.).   
+
+mysql> CREATE TABLE RadiusSettings (
+    ->     MinRadius DECIMAL(10,2),
+    ->     MaxRadius DECIMAL(10,2),
+    ->     Increment DECIMAL(10,2)
+    -> );
+Query OK, 0 rows affected (0.04 sec)
+
+mysql>
+mysql> INSERT INTO RadiusSettings VALUES (1.00, 5.00, 1.00);
+Query OK, 1 row affected (0.01 sec)
+
+mysql> DELIMITER //
+mysql>
+mysql> CREATE PROCEDURE GenerateSphereCalculations()
+    -> BEGIN
+    ->     DECLARE min_r DECIMAL(10,2);
+    ->     DECLARE max_r DECIMAL(10,2);
+    ->     DECLARE incr DECIMAL(10,2);
+    ->     DECLARE radius DECIMAL(10,2);
+    ->     DECLARE pi DOUBLE DEFAULT 3.141592653589793;
+    ->     DECLARE circumference DOUBLE;
+    ->     DECLARE area DOUBLE;
+    ->     DECLARE volume DOUBLE;
+    ->
+    ->     -- Select values from RadiusSettings table
+    ->     SELECT MinRadius, MaxRadius, Increment
+    ->     INTO min_r, max_r, incr
+    ->     FROM RadiusSettings
+    ->     LIMIT 1;
+    ->
+    ->     SET radius = min_r;
+    ->
+    ->     -- Loop from min radius to max radius
+    ->     WHILE radius <= max_r DO
+    ->         SET circumference = 2 * pi * radius;
+    ->         SET area = pi * POW(radius, 2);
+    ->         SET volume = (4.0 / 3.0) * pi * POW(radius, 3);
+    ->
+    ->         SELECT
+    ->             radius AS Radius,
+    ->             circumference AS Circumference,
+    ->             area AS Area,
+    ->             volume AS Volume;
+    ->
+    ->         SET radius = radius + incr;
+    ->     END WHILE;
+    -> END //
+Query OK, 0 rows affected (0.01 sec)
+
+mysql>
+mysql> DELIMITER ;
+
+mysql> call GenerateSphereCalculations();
++--------+-------------------+-------------------+--------------------+
+| Radius | Circumference     | Area              | Volume             |
++--------+-------------------+-------------------+--------------------+
+|   1.00 | 6.283185307179586 | 3.141592653589793 | 4.1887902047863905 |
++--------+-------------------+-------------------+--------------------+
+1 row in set (0.00 sec)
+
++--------+--------------------+--------------------+--------------------+
+| Radius | Circumference      | Area               | Volume             |
++--------+--------------------+--------------------+--------------------+
+|   2.00 | 12.566370614359172 | 12.566370614359172 | 33.510321638291124 |
++--------+--------------------+--------------------+--------------------+
+1 row in set (0.01 sec)
+
++--------+-------------------+--------------------+--------------------+
+| Radius | Circumference     | Area               | Volume             |
++--------+-------------------+--------------------+--------------------+
+|   3.00 | 18.84955592153876 | 28.274333882308138 | 113.09733552923254 |
++--------+-------------------+--------------------+--------------------+
+1 row in set (0.01 sec)
+
++--------+--------------------+-------------------+------------------+
+| Radius | Circumference      | Area              | Volume           |
++--------+--------------------+-------------------+------------------+
+|   4.00 | 25.132741228718345 | 50.26548245743669 | 268.082573106329 |
++--------+--------------------+-------------------+------------------+
+1 row in set (0.02 sec)
+
++--------+-------------------+-------------------+-------------------+
+| Radius | Circumference     | Area              | Volume            |
++--------+-------------------+-------------------+-------------------+
+|   5.00 | 31.41592653589793 | 78.53981633974483 | 523.5987755982989 |
++--------+-------------------+-------------------+-------------------+
+1 row in set (0.02 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+4. A palindrome is a word that is spelled the same forward and backward, such as 
+level, radar, etc. Write a program to Selects from any table a five letter word and 
+determine whether it is a palindrome.   
+
+
+mysql> CREATE TABLE Words (
+    ->     word VARCHAR(20)
+    -> );
+Query OK, 0 rows affected (0.02 sec)
+
+mysql>
+mysql> INSERT INTO Words (word) VALUES ('level'), ('apple'), ('radar'), ('hello'), ('civic');
+Query OK, 5 rows affected (0.01 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+mysql> DELIMITER //
+mysql>
+mysql> CREATE PROCEDURE CheckFivePalindromes()
+    -> BEGIN
+    ->     DECLARE done INT DEFAULT 0;
+    ->     DECLARE w VARCHAR(20);
+    ->     DECLARE reversed_w VARCHAR(20);
+    ->
+    ->     -- Cursor to select five-letter words
+    ->     DECLARE cur CURSOR FOR
+    ->         SELECT word FROM Words WHERE CHAR_LENGTH(word) = 5;
+    ->
+    ->     DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = 1;
+    ->
+    ->     OPEN cur;
+    ->
+    ->     read_loop: LOOP
+    ->         FETCH cur INTO w;
+    ->         IF done THEN
+    ->             LEAVE read_loop;
+    ->         END IF;
+    ->
+    ->         -- Reverse the word
+    ->         SET reversed_w = REVERSE(w);
+    ->
+    ->         -- Check if palindrome
+    ->         IF w = reversed_w THEN
+    ->             SELECT CONCAT(w, ' is a palindrome.') AS Result;
+    ->         ELSE
+    ->             SELECT CONCAT(w, ' is not a palindrome.') AS Result;
+    ->         END IF;
+    ->
+    ->     END LOOP;
+    ->
+    ->     CLOSE cur;
+    -> END //
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> call CheckFivePalindromes();
++------------------------+
+| Result                 |
++------------------------+
+| level is a palindrome. |
++------------------------+
+1 row in set (0.00 sec)
+
++----------------------------+
+| Result                     |
++----------------------------+
+| apple is not a palindrome. |
++----------------------------+
+1 row in set (0.01 sec)
+
++------------------------+
+| Result                 |
++------------------------+
+| radar is a palindrome. |
++------------------------+
+1 row in set (0.01 sec)
+
++----------------------------+
+| Result                     |
++----------------------------+
+| hello is not a palindrome. |
++----------------------------+
+1 row in set (0.01 sec)
+
++------------------------+
+| Result                 |
++------------------------+
+| civic is a palindrome. |
++------------------------+
+1 row in set (0.01 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
+5. Modify the above program to Select from any table a variable length word. This 
+requires determining how many characters are read in.   
+mysql> CREATE PROCEDURE CheckLengthPalindromes()
+    -> BEGIN
+    ->     DECLARE done INT DEFAULT 0;
+    ->     DECLARE w VARCHAR(255);
+    ->     DECLARE reversed_w VARCHAR(255);
+    ->     DECLARE word_length INT;
+    ->
+    ->      -- Cursor to select all words from the table
+    ->     DECLARE cur CURSOR FOR
+    ->         SELECT word FROM Words; -- No length condition now
+    ->
+    ->     DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = 1;
+    ->
+    ->     OPEN cur;
+    ->
+    ->     read_loop: LOOP
+    ->         FETCH cur INTO w;
+    ->         IF done THEN
+    ->             LEAVE read_loop;
+    ->         END IF;
+    ->
+    ->         -- Calculate length of the word
+    ->         SET word_length = CHAR_LENGTH(w);
+    ->
+    ->         -- Reverse the word
+    ->         SET reversed_w = REVERSE(w);
+    ->
+    ->         -- Check if palindrome
+    ->         IF w = reversed_w THEN
+    ->             SELECT CONCAT(w, ' (', word_length, ' letters) is a palindrome.') AS Result;
+    ->         ELSE
+    ->             SELECT CONCAT(w, ' (', word_length, ' letters) is not a palindrome.') AS Result;
+    ->         END IF;
+    ->
+    ->     END LOOP;
+    ->
+    ->     CLOSE cur;
+    -> END //
+Query OK, 0 rows affected (0.02 sec)
+
+mysql>
+mysql> DELIMITER ;
+mysql> call CheckLengthPalindromes();
++------------------------------------+
+| Result                             |
++------------------------------------+
+| level (5 letters) is a palindrome. |
++------------------------------------+
+1 row in set (0.00 sec)
+
++----------------------------------------+
+| Result                                 |
++----------------------------------------+
+| apple (5 letters) is not a palindrome. |
++----------------------------------------+
+1 row in set (0.01 sec)
+
++------------------------------------+
+| Result                             |
++------------------------------------+
+| radar (5 letters) is a palindrome. |
++------------------------------------+
+1 row in set (0.01 sec)
+
++----------------------------------------+
+| Result                                 |
++----------------------------------------+
+| hello (5 letters) is not a palindrome. |
++----------------------------------------+
+1 row in set (0.01 sec)
+
++------------------------------------+
+| Result                             |
++------------------------------------+
+| civic (5 letters) is a palindrome. |
++------------------------------------+
+1 row in set (0.02 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: 'Raleway';
+        }
+
+        body {
+            background: linear-gradient(#344)
+        }
+
+        #login-form-container {
+            width: 450px;
+            height: 450px;
+            background-color: peachpuff;
+            text-align: center;
+            margin: 160px auto;
+            border-radius: 20px;
+        }
+
+        input {
+            width: 60%;
+            margin-bottom: 20px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+
+        #login-btn {
+            width: 30%;
+            background: #444;
+            border: 0;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        #login-btn:hover {
+            background: white;
+            border-style: solid;
+            color: #EF5350;
+            border-width: 2px;
+            border-color: #EF5350;
+        }
+
+        h2 {
+            padding-top: 35px;
+        }
+
+        .form-field {
+            border-top-width: 0;
+            border-left-width: 0;
+            border-right-width: 0;
+            outline: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="login-form-container">
+        <h2>LOGIN</h2>
+        <form>
+            <div><input type="text" placeholder="Enter Username" class="form-field"></div>
+            <div><input type="password" placeholder="Enter Password" class="form-field"></div>
+            <div><input type="submit" id="login-btn"></div>
+        </form>
+        <p>Forgot Password? | <a href="#">Sign Up</a></p>
+
+    </div>
+</body>
+
+</html>

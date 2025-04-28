@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Manage Dropdown Items</title>
+    <script>
+        function removeItem() {
+            var dropdown = document.getElementById("myDropdown");
+            if (dropdown.selectedIndex !== -1) {
+                dropdown.remove(dropdown.selectedIndex);
+            } else {
+                alert("Please select an item to remove.");
+            }
+        }
+
+        function addItem() {
+            var newItem = document.getElementById("newItem").value;
+            if (newItem.trim() !== "") {
+                var dropdown = document.getElementById("myDropdown");
+                var option = document.createElement("option");
+                option.text = newItem;
+                option.value = newItem.toLowerCase();
+                dropdown.add(option);
+                document.getElementById("newItem").value = ""; // Clear input after adding
+            } else {
+                alert("Please enter an item to add.");
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h2>Dropdown List Manager</h2>
+
+<select id="myDropdown">
+    <option value="apple">Apple</option>
+    <option value="banana">Banana</option>
+    <option value="orange">Orange</option>
+    <option value="mango">Mango</option>
+</select>
+
+<br><br>
+
+<button onclick="removeItem()">Remove Selected Item</button>
+
+<br><br>
+
+<input type="text" id="newItem" placeholder="Enter new item">
+<button onclick="addItem()">Add New Item</button>
+
+</body>
+</html>

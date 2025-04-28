@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Example</title>
+    <script>
+        function displayFormValues() {
+            var firstName = document.getElementById("firstName").value;
+            var lastName = document.getElementById("lastName").value;
+            var contactNo = document.getElementById("contactNo").value;
+            var emailId = document.getElementById("emailId").value;
+
+            document.getElementById("output").innerHTML = `
+                <h3>Form Details:</h3>
+                <p>First Name: ${firstName}</p>
+                <p>Last Name: ${lastName}</p>
+                <p>Contact No.: ${contactNo}</p>
+                <p>Email ID: ${emailId}</p>
+            `;
+
+            return false; // prevent actual form submission
+        }
+    </script>
+</head>
+<body>
+
+<h2>Form</h2>
+<form onsubmit="return displayFormValues()">
+    First Name: <input type="text" id="firstName"><br><br>
+    Last Name: <input type="text" id="lastName"><br><br>
+    Contact No.: <input type="text" id="contactNo"><br><br>
+    Email ID: <input type="email" id="emailId"><br><br>
+    <button type="submit">Submit</button>
+</form>
+
+<div id="output"></div>
+
+</body>
+</html>

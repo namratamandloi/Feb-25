@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <titel>Highlight Bold Words</titel>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        .highlight {
+            color: limegreen;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p>
+        <a href="#" id="hoverLink">[on mouse over here bold words of the following paragraph will be highlighted</a>
+    </p>
+
+    <p id="content">
+        we have just <b>started</b> this section for the users (<b>beginner</b> to intermediate) who
+        <b>want</b> to work with <b>various</b> javaScript <b>problems</b> and write scripts online to
+        <b>test</b> their JavaScript <b>skills</b>.
+    </p>
+
+    <script>
+        const link = document.getElementById('hoverLink');
+        const boldWords = document.querySelectorAll('#content b');
+
+        link.addEventListener('mouseover', () => {
+            boldWords.forEach(word => {
+                word.classList.add('highlight');
+            });
+        });
+
+        link.addEventListener('mouseout', () => {
+            boldWords.forEach(word => {
+                word.classList.remove('highlight');
+            });
+        });
+    </script>
+</body>
+
+</html>

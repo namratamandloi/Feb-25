@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="'en">
+
+    <head>
+
+    </head>
+    <body>
+        <script>
+            // Define the callback function
+function toUpperCase(str) {
+  return str.toUpperCase();
+}
+
+// Define the processData function
+function processData(input, callback) {
+  const result = callback(input);
+  console.log(result);
+}
+
+// Call processData with a string and the toUpperCase callback
+processData("hello world", toUpperCase);
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    console.log("Program started");
+
+const myPromise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve({ data: "Hello, friend!", error: null });
+  }, 5000);
+});
+
+console.log(myPromise);
+console.log("Program in progress...");
+
+myPromise
+  .then((val) => {
+    console.log(val);
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve("First promise chain complete!");
+      }, 2000);
+    });
+  })
+  .then((val) => {
+    console.log(val);
+  });
+
+// code
+
+myPromise
+  .then((val) => {
+    console.log(val);
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve("Second promise chain complete!");
+      }, 10000);
+    });
+  })
+  .then((val) => {
+    console.log(val);
+  });
+
+  </script>
+</body>
+</html>

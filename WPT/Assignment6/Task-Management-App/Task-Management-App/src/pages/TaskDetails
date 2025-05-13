@@ -1,0 +1,79 @@
+import { useContext } from 'react';
+import { useParams, Link } from 'react-router-dom';
+import { TaskContext } from '../context/TaskContext.js';
+import { Badge, Button, Card } from 'react-bootstrap';
+import { FaArrowLeft, FaEdit } from 'react-icons/fa'; // Import icons if you want to use them
+
+export const TaskDetails = () => {
+  const { tasks } = useContext(TaskContext);
+  const { id } = useParams();
+  
+  // Convert id to number safely
+  const taskId = parseInt(id, 10);
+  const task = tasks.find(t => t.id === taskId);
+
+  if (!task) {
+    return (
+      <div className="alert alert-warning mt-4">
+        Task not found
+        <Button as={Link} to="/" variant="outline-primary" className="ms-3">
+          Go back to tasks
+        </Button>
+      </div>
+    );
+  }
+
+  const getPriorityVariant = () => {
+    switch (task.priority) {
+      case 'high': return 'danger';
+      case 'medium': return 'warning';
+      case 'low': return 'success';
+      default: return 'secondary';
+    }
+  };
+
+  return (
+    <div className="mt-4">
+      <Card>
+        <Card.Body>
+          <Card.Title className="d-flex justify-content-between align-items-center">
+            <span className={task.completed ? 'text-decoration-line-through' : ''}>
+              {task.title}
+            </span>
+            <div>
+              <Badge bg={getPriorityVariant()} className="me-2">
+                {task.priority}
+              </Badge>
+              {task.completed && (
+                <Badge bg="success" className="me-2">
+                  Completed
+                </Badge>
+              )}
+            </div>
+          </Card.Title>
+          
+          {task.dueDate && (
+            <Card.Subtitle className="mb-2 text-muted">
+              Due: {new Date(task.dueDate).toLocaleDateString()}
+            </Card.Subtitle>
+          )}
+          
+          <Card.Text className="mb-4">
+            {task.description || <span className="text-muted">No description provided</span>}
+          </Card.Text>
+          
+          <div className="d-flex justify-content-end gap-2">
+            <Button as={Link} to="/" variant="outline-secondary">
+              <FaArrowLeft className="me-2" />
+              Back
+            </Button>
+            <Button as={Link} to={`/edit/${task.id}`} variant="primary">
+              <FaEdit className="me-2" />
+              Edit
+            </Button>
+          </div>
+        </Card.Body>
+      </Card>
+    </div>
+  );
+};

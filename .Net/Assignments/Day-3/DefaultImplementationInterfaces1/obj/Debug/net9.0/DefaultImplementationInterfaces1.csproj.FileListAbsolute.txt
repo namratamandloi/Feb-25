@@ -1,0 +1,14 @@
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\DefaultImplementationInterfaces1\bin\Debug\net9.0\DefaultImplementationInterfaces1.exe
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\DefaultImplementationInterfaces1\bin\Debug\net9.0\DefaultImplementationInterfaces1.deps.json
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\DefaultImplementationInterfaces1\bin\Debug\net9.0\DefaultImplementationInterfaces1.runtimeconfig.json
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\DefaultImplementationInterfaces1\bin\Debug\net9.0\DefaultImplementationInterfaces1.dll
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\DefaultImplementationInterfaces1\bin\Debug\net9.0\DefaultImplementationInterfaces1.pdb
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\DefaultImplementationInterfaces1\obj\Debug\net9.0\DefaultImplementationInterfaces1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\DefaultImplementationInterfaces1\obj\Debug\net9.0\DefaultImplementationInterfaces1.AssemblyInfoInputs.cache
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\DefaultImplementationInterfaces1\obj\Debug\net9.0\DefaultImplementationInterfaces1.AssemblyInfo.cs
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\DefaultImplementationInterfaces1\obj\Debug\net9.0\DefaultImplementationInterfaces1.csproj.CoreCompileInputs.cache
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\DefaultImplementationInterfaces1\obj\Debug\net9.0\DefaultImplementationInterfaces1.dll
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\DefaultImplementationInterfaces1\obj\Debug\net9.0\refint\DefaultImplementationInterfaces1.dll
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\DefaultImplementationInterfaces1\obj\Debug\net9.0\DefaultImplementationInterfaces1.pdb
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\DefaultImplementationInterfaces1\obj\Debug\net9.0\DefaultImplementationInterfaces1.genruntimeconfig.cache
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\DefaultImplementationInterfaces1\obj\Debug\net9.0\ref\DefaultImplementationInterfaces1.dll

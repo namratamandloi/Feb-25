@@ -1,0 +1,4 @@
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\RefAndValue\obj\Debug\net9.0\RefAndValue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\RefAndValue\obj\Debug\net9.0\RefAndValue.AssemblyInfoInputs.cache
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\RefAndValue\obj\Debug\net9.0\RefAndValue.AssemblyInfo.cs
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\RefAndValue\obj\Debug\net9.0\RefAndValue.csproj.CoreCompileInputs.cache

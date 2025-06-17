@@ -1,0 +1,14 @@
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\InheritanceAssignment\bin\Debug\net9.0\InheritanceAssignment.exe
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\InheritanceAssignment\bin\Debug\net9.0\InheritanceAssignment.deps.json
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\InheritanceAssignment\bin\Debug\net9.0\InheritanceAssignment.runtimeconfig.json
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\InheritanceAssignment\bin\Debug\net9.0\InheritanceAssignment.dll
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\InheritanceAssignment\bin\Debug\net9.0\InheritanceAssignment.pdb
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\InheritanceAssignment\obj\Debug\net9.0\InheritanceAssignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\InheritanceAssignment\obj\Debug\net9.0\InheritanceAssignment.AssemblyInfoInputs.cache
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\InheritanceAssignment\obj\Debug\net9.0\InheritanceAssignment.AssemblyInfo.cs
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\InheritanceAssignment\obj\Debug\net9.0\InheritanceAssignment.csproj.CoreCompileInputs.cache
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\InheritanceAssignment\obj\Debug\net9.0\InheritanceAssignment.dll
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\InheritanceAssignment\obj\Debug\net9.0\refint\InheritanceAssignment.dll
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\InheritanceAssignment\obj\Debug\net9.0\InheritanceAssignment.pdb
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\InheritanceAssignment\obj\Debug\net9.0\InheritanceAssignment.genruntimeconfig.cache
+C:\Users\namra\OneDrive\Desktop\CDAC-25\Dotnet\day-3\InheritanceAssignment\obj\Debug\net9.0\ref\InheritanceAssignment.dll

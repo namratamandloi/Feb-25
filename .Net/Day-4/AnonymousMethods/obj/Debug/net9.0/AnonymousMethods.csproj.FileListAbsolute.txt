@@ -1,0 +1,15 @@
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\AnonymousMethods\bin\Debug\net9.0\AnonymousMethods.exe
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\AnonymousMethods\bin\Debug\net9.0\AnonymousMethods.deps.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\AnonymousMethods\bin\Debug\net9.0\AnonymousMethods.runtimeconfig.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\AnonymousMethods\bin\Debug\net9.0\AnonymousMethods.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\AnonymousMethods\bin\Debug\net9.0\AnonymousMethods.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\AnonymousMethods\obj\Debug\net9.0\AnonymousMethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\AnonymousMethods\obj\Debug\net9.0\AnonymousMethods.AssemblyInfoInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\AnonymousMethods\obj\Debug\net9.0\AnonymousMethods.AssemblyInfo.cs
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\AnonymousMethods\obj\Debug\net9.0\AnonymousMethods.csproj.CoreCompileInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\AnonymousMethods\obj\Debug\net9.0\AnonymousMethods.sourcelink.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\AnonymousMethods\obj\Debug\net9.0\AnonymousMethods.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\AnonymousMethods\obj\Debug\net9.0\refint\AnonymousMethods.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\AnonymousMethods\obj\Debug\net9.0\AnonymousMethods.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\AnonymousMethods\obj\Debug\net9.0\AnonymousMethods.genruntimeconfig.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\AnonymousMethods\obj\Debug\net9.0\ref\AnonymousMethods.dll

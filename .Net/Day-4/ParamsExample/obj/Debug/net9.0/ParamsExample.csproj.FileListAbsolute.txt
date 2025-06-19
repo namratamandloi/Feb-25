@@ -1,0 +1,15 @@
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ParamsExample\bin\Debug\net9.0\ParamsExample.exe
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ParamsExample\bin\Debug\net9.0\ParamsExample.deps.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ParamsExample\bin\Debug\net9.0\ParamsExample.runtimeconfig.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ParamsExample\bin\Debug\net9.0\ParamsExample.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ParamsExample\bin\Debug\net9.0\ParamsExample.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ParamsExample\obj\Debug\net9.0\ParamsExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ParamsExample\obj\Debug\net9.0\ParamsExample.AssemblyInfoInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ParamsExample\obj\Debug\net9.0\ParamsExample.AssemblyInfo.cs
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ParamsExample\obj\Debug\net9.0\ParamsExample.csproj.CoreCompileInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ParamsExample\obj\Debug\net9.0\ParamsExample.sourcelink.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ParamsExample\obj\Debug\net9.0\ParamsExample.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ParamsExample\obj\Debug\net9.0\refint\ParamsExample.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ParamsExample\obj\Debug\net9.0\ParamsExample.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ParamsExample\obj\Debug\net9.0\ParamsExample.genruntimeconfig.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ParamsExample\obj\Debug\net9.0\ref\ParamsExample.dll

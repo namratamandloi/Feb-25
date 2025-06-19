@@ -1,0 +1,15 @@
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ArraySortingExample\bin\Debug\net9.0\ArraySortingExample.exe
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ArraySortingExample\bin\Debug\net9.0\ArraySortingExample.deps.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ArraySortingExample\bin\Debug\net9.0\ArraySortingExample.runtimeconfig.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ArraySortingExample\bin\Debug\net9.0\ArraySortingExample.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ArraySortingExample\bin\Debug\net9.0\ArraySortingExample.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ArraySortingExample\obj\Debug\net9.0\ArraySortingExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ArraySortingExample\obj\Debug\net9.0\ArraySortingExample.AssemblyInfoInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ArraySortingExample\obj\Debug\net9.0\ArraySortingExample.AssemblyInfo.cs
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ArraySortingExample\obj\Debug\net9.0\ArraySortingExample.csproj.CoreCompileInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ArraySortingExample\obj\Debug\net9.0\ArraySortingExample.sourcelink.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ArraySortingExample\obj\Debug\net9.0\ArraySortingExample.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ArraySortingExample\obj\Debug\net9.0\refint\ArraySortingExample.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ArraySortingExample\obj\Debug\net9.0\ArraySortingExample.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ArraySortingExample\obj\Debug\net9.0\ArraySortingExample.genruntimeconfig.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ArraySortingExample\obj\Debug\net9.0\ref\ArraySortingExample.dll

@@ -1,0 +1,15 @@
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-1\EmployeeList-1\bin\Debug\net9.0\EmployeeList-1.exe
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-1\EmployeeList-1\bin\Debug\net9.0\EmployeeList-1.deps.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-1\EmployeeList-1\bin\Debug\net9.0\EmployeeList-1.runtimeconfig.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-1\EmployeeList-1\bin\Debug\net9.0\EmployeeList-1.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-1\EmployeeList-1\bin\Debug\net9.0\EmployeeList-1.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-1\EmployeeList-1\obj\Debug\net9.0\EmployeeList-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-1\EmployeeList-1\obj\Debug\net9.0\EmployeeList-1.AssemblyInfoInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-1\EmployeeList-1\obj\Debug\net9.0\EmployeeList-1.AssemblyInfo.cs
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-1\EmployeeList-1\obj\Debug\net9.0\EmployeeList-1.csproj.CoreCompileInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-1\EmployeeList-1\obj\Debug\net9.0\EmployeeList-1.sourcelink.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-1\EmployeeList-1\obj\Debug\net9.0\EmployeeList-1.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-1\EmployeeList-1\obj\Debug\net9.0\refint\EmployeeList-1.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-1\EmployeeList-1\obj\Debug\net9.0\EmployeeList-1.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-1\EmployeeList-1\obj\Debug\net9.0\EmployeeList-1.genruntimeconfig.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-1\EmployeeList-1\obj\Debug\net9.0\ref\EmployeeList-1.dll

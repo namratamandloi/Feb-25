@@ -1,0 +1,15 @@
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\DelegatesExample\bin\Debug\net9.0\DelegatesExample.exe
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\DelegatesExample\bin\Debug\net9.0\DelegatesExample.deps.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\DelegatesExample\bin\Debug\net9.0\DelegatesExample.runtimeconfig.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\DelegatesExample\bin\Debug\net9.0\DelegatesExample.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\DelegatesExample\bin\Debug\net9.0\DelegatesExample.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\DelegatesExample\obj\Debug\net9.0\DelegatesExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\DelegatesExample\obj\Debug\net9.0\DelegatesExample.AssemblyInfoInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\DelegatesExample\obj\Debug\net9.0\DelegatesExample.AssemblyInfo.cs
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\DelegatesExample\obj\Debug\net9.0\DelegatesExample.csproj.CoreCompileInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\DelegatesExample\obj\Debug\net9.0\DelegatesExample.sourcelink.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\DelegatesExample\obj\Debug\net9.0\DelegatesExample.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\DelegatesExample\obj\Debug\net9.0\refint\DelegatesExample.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\DelegatesExample\obj\Debug\net9.0\DelegatesExample.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\DelegatesExample\obj\Debug\net9.0\DelegatesExample.genruntimeconfig.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\DelegatesExample\obj\Debug\net9.0\ref\DelegatesExample.dll

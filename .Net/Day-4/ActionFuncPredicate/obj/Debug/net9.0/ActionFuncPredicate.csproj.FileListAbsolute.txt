@@ -1,0 +1,15 @@
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ActionFuncPredicate\bin\Debug\net9.0\ActionFuncPredicate.exe
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ActionFuncPredicate\bin\Debug\net9.0\ActionFuncPredicate.deps.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ActionFuncPredicate\bin\Debug\net9.0\ActionFuncPredicate.runtimeconfig.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ActionFuncPredicate\bin\Debug\net9.0\ActionFuncPredicate.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ActionFuncPredicate\bin\Debug\net9.0\ActionFuncPredicate.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ActionFuncPredicate\obj\Debug\net9.0\ActionFuncPredicate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ActionFuncPredicate\obj\Debug\net9.0\ActionFuncPredicate.AssemblyInfoInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ActionFuncPredicate\obj\Debug\net9.0\ActionFuncPredicate.AssemblyInfo.cs
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ActionFuncPredicate\obj\Debug\net9.0\ActionFuncPredicate.csproj.CoreCompileInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ActionFuncPredicate\obj\Debug\net9.0\ActionFuncPredicate.sourcelink.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ActionFuncPredicate\obj\Debug\net9.0\ActionFuncPredicate.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ActionFuncPredicate\obj\Debug\net9.0\refint\ActionFuncPredicate.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ActionFuncPredicate\obj\Debug\net9.0\ActionFuncPredicate.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ActionFuncPredicate\obj\Debug\net9.0\ActionFuncPredicate.genruntimeconfig.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\ActionFuncPredicate\obj\Debug\net9.0\ref\ActionFuncPredicate.dll

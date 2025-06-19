@@ -1,0 +1,15 @@
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\Lambdas\bin\Debug\net9.0\Lambdas.exe
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\Lambdas\bin\Debug\net9.0\Lambdas.deps.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\Lambdas\bin\Debug\net9.0\Lambdas.runtimeconfig.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\Lambdas\bin\Debug\net9.0\Lambdas.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\Lambdas\bin\Debug\net9.0\Lambdas.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\Lambdas\obj\Debug\net9.0\Lambdas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\Lambdas\obj\Debug\net9.0\Lambdas.AssemblyInfoInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\Lambdas\obj\Debug\net9.0\Lambdas.AssemblyInfo.cs
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\Lambdas\obj\Debug\net9.0\Lambdas.csproj.CoreCompileInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\Lambdas\obj\Debug\net9.0\Lambdas.sourcelink.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\Lambdas\obj\Debug\net9.0\Lambdas.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\Lambdas\obj\Debug\net9.0\refint\Lambdas.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\Lambdas\obj\Debug\net9.0\Lambdas.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\Lambdas\obj\Debug\net9.0\Lambdas.genruntimeconfig.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\Lambdas\obj\Debug\net9.0\ref\Lambdas.dll

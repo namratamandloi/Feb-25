@@ -1,0 +1,15 @@
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\IndicesAndRanges\obj\Debug\net9.0\IndicesAndRanges.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\IndicesAndRanges\obj\Debug\net9.0\IndicesAndRanges.AssemblyInfoInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\IndicesAndRanges\obj\Debug\net9.0\IndicesAndRanges.AssemblyInfo.cs
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\IndicesAndRanges\obj\Debug\net9.0\IndicesAndRanges.csproj.CoreCompileInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\IndicesAndRanges\obj\Debug\net9.0\IndicesAndRanges.sourcelink.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\IndicesAndRanges\bin\Debug\net9.0\IndicesAndRanges.exe
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\IndicesAndRanges\bin\Debug\net9.0\IndicesAndRanges.deps.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\IndicesAndRanges\bin\Debug\net9.0\IndicesAndRanges.runtimeconfig.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\IndicesAndRanges\bin\Debug\net9.0\IndicesAndRanges.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\IndicesAndRanges\bin\Debug\net9.0\IndicesAndRanges.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\IndicesAndRanges\obj\Debug\net9.0\IndicesAndRanges.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\IndicesAndRanges\obj\Debug\net9.0\refint\IndicesAndRanges.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\IndicesAndRanges\obj\Debug\net9.0\IndicesAndRanges.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\IndicesAndRanges\obj\Debug\net9.0\IndicesAndRanges.genruntimeconfig.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-4\IndicesAndRanges\obj\Debug\net9.0\ref\IndicesAndRanges.dll

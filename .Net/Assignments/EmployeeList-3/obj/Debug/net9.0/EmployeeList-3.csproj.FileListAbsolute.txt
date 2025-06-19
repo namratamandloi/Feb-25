@@ -1,0 +1,15 @@
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-3\bin\Debug\net9.0\EmployeeList-3.exe
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-3\bin\Debug\net9.0\EmployeeList-3.deps.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-3\bin\Debug\net9.0\EmployeeList-3.runtimeconfig.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-3\bin\Debug\net9.0\EmployeeList-3.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-3\bin\Debug\net9.0\EmployeeList-3.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-3\obj\Debug\net9.0\EmployeeList-3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-3\obj\Debug\net9.0\EmployeeList-3.AssemblyInfoInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-3\obj\Debug\net9.0\EmployeeList-3.AssemblyInfo.cs
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-3\obj\Debug\net9.0\EmployeeList-3.csproj.CoreCompileInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-3\obj\Debug\net9.0\EmployeeList-3.sourcelink.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-3\obj\Debug\net9.0\EmployeeList-3.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-3\obj\Debug\net9.0\refint\EmployeeList-3.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-3\obj\Debug\net9.0\EmployeeList-3.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-3\obj\Debug\net9.0\EmployeeList-3.genruntimeconfig.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Assignments\EmployeeList-3\obj\Debug\net9.0\ref\EmployeeList-3.dll

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ImplicitVariables")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59d4dfa207d08e621272f44154f29708d07aa337")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78ff29bcb14548649c7845cf754fa2f294b720df")]
 [assembly: System.Reflection.AssemblyProductAttribute("ImplicitVariables")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ImplicitVariables")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

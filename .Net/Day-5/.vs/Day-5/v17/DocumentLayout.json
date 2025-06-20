@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-5\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4FF733C1-5AB5-4CCB-A6ED-58A985DC7988}|EventHandling\\EventHandling.csproj|c:\\users\\namra\\onedrive\\desktop\\feb-25\\feb-25\\.net\\day-5\\eventhandling\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FF733C1-5AB5-4CCB-A6ED-58A985DC7988}|EventHandling\\EventHandling.csproj|solutionrelative:eventhandling\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B37DE0F0-9EC5-42BB-A050-599C2E76B505}|ImplicitVariables\\ImplicitVariables.csproj|c:\\users\\namra\\onedrive\\desktop\\feb-25\\feb-25\\.net\\day-5\\implicitvariables\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B37DE0F0-9EC5-42BB-A050-599C2E76B505}|ImplicitVariables\\ImplicitVariables.csproj|solutionrelative:implicitvariables\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,6 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-5\\EventHandling\\Program.cs",
+              "RelativeDocumentMoniker": "EventHandling\\Program.cs",
+              "ToolTip": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-5\\EventHandling\\Program.cs",
+              "RelativeToolTip": "EventHandling\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T17:34:10.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-5\\ImplicitVariables\\Class1.cs",
               "RelativeDocumentMoniker": "ImplicitVariables\\Class1.cs",
@@ -35,7 +52,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-5\\ImplicitVariables\\Program.cs",
               "RelativeDocumentMoniker": "ImplicitVariables\\Program.cs",
@@ -43,8 +60,7 @@
               "RelativeToolTip": "ImplicitVariables\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T16:26:00.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T16:26:00.378Z"
             }
           ]
         }

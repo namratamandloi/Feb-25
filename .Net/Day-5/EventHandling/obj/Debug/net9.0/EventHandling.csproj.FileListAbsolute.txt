@@ -1,0 +1,15 @@
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\EventHandling\bin\Debug\net9.0\EventHandling.exe
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\EventHandling\bin\Debug\net9.0\EventHandling.deps.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\EventHandling\bin\Debug\net9.0\EventHandling.runtimeconfig.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\EventHandling\bin\Debug\net9.0\EventHandling.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\EventHandling\bin\Debug\net9.0\EventHandling.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\EventHandling\obj\Debug\net9.0\EventHandling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\EventHandling\obj\Debug\net9.0\EventHandling.AssemblyInfoInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\EventHandling\obj\Debug\net9.0\EventHandling.AssemblyInfo.cs
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\EventHandling\obj\Debug\net9.0\EventHandling.csproj.CoreCompileInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\EventHandling\obj\Debug\net9.0\EventHandling.sourcelink.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\EventHandling\obj\Debug\net9.0\EventHandling.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\EventHandling\obj\Debug\net9.0\refint\EventHandling.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\EventHandling\obj\Debug\net9.0\EventHandling.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\EventHandling\obj\Debug\net9.0\EventHandling.genruntimeconfig.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\EventHandling\obj\Debug\net9.0\ref\EventHandling.dll

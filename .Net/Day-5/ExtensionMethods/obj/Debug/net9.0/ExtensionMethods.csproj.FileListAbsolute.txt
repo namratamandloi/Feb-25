@@ -1,0 +1,15 @@
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ExtensionMethods\bin\Debug\net9.0\ExtensionMethods.exe
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ExtensionMethods\bin\Debug\net9.0\ExtensionMethods.deps.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ExtensionMethods\bin\Debug\net9.0\ExtensionMethods.runtimeconfig.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ExtensionMethods\bin\Debug\net9.0\ExtensionMethods.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ExtensionMethods\bin\Debug\net9.0\ExtensionMethods.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ExtensionMethods\obj\Debug\net9.0\ExtensionMethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ExtensionMethods\obj\Debug\net9.0\ExtensionMethods.AssemblyInfoInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ExtensionMethods\obj\Debug\net9.0\ExtensionMethods.AssemblyInfo.cs
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ExtensionMethods\obj\Debug\net9.0\ExtensionMethods.csproj.CoreCompileInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ExtensionMethods\obj\Debug\net9.0\ExtensionMethods.sourcelink.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ExtensionMethods\obj\Debug\net9.0\ExtensionMethods.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ExtensionMethods\obj\Debug\net9.0\refint\ExtensionMethods.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ExtensionMethods\obj\Debug\net9.0\ExtensionMethods.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ExtensionMethods\obj\Debug\net9.0\ExtensionMethods.genruntimeconfig.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ExtensionMethods\obj\Debug\net9.0\ref\ExtensionMethods.dll

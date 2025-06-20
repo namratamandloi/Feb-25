@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B37DE0F0-9EC5-42BB-A050-599C2E76B505}|ImplicitVariables\\ImplicitVariables.csproj|c:\\users\\namra\\onedrive\\desktop\\feb-25\\feb-25\\.net\\day-5\\implicitvariables\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B37DE0F0-9EC5-42BB-A050-599C2E76B505}|ImplicitVariables\\ImplicitVariables.csproj|solutionrelative:implicitvariables\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F87E2D6A-03A8-4EED-864B-BE785478B232}|ExceptionHandling2\\ExceptionHandling2.csproj|c:\\users\\namra\\onedrive\\desktop\\feb-25\\feb-25\\.net\\day-5\\exceptionhandling2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F87E2D6A-03A8-4EED-864B-BE785478B232}|ExceptionHandling2\\ExceptionHandling2.csproj|solutionrelative:exceptionhandling2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E790CC-22EC-46D9-ACD0-020B1C46E6DA}|ExtensionMethods\\ExtensionMethods.csproj|c:\\users\\namra\\onedrive\\desktop\\feb-25\\feb-25\\.net\\day-5\\extensionmethods\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E790CC-22EC-46D9-ACD0-020B1C46E6DA}|ExtensionMethods\\ExtensionMethods.csproj|solutionrelative:extensionmethods\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B37DE0F0-9EC5-42BB-A050-599C2E76B505}|ImplicitVariables\\ImplicitVariables.csproj|c:\\users\\namra\\onedrive\\desktop\\feb-25\\feb-25\\.net\\day-5\\implicitvariables\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B37DE0F0-9EC5-42BB-A050-599C2E76B505}|ImplicitVariables\\ImplicitVariables.csproj|solutionrelative:implicitvariables\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-5\\ImplicitVariables\\Class1.cs",
+              "RelativeDocumentMoniker": "ImplicitVariables\\Class1.cs",
+              "ToolTip": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-5\\ImplicitVariables\\Class1.cs",
+              "RelativeToolTip": "ImplicitVariables\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T16:28:13.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-5\\ImplicitVariables\\Program.cs",
+              "RelativeDocumentMoniker": "ImplicitVariables\\Program.cs",
+              "ToolTip": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-5\\ImplicitVariables\\Program.cs",
+              "RelativeToolTip": "ImplicitVariables\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T16:26:00.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-5\\ExtensionMethods\\Program.cs",
+              "RelativeDocumentMoniker": "ExtensionMethods\\Program.cs",
+              "ToolTip": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-5\\ExtensionMethods\\Program.cs",
+              "RelativeToolTip": "ExtensionMethods\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T16:17:56.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-5\\ExceptionHandling2\\Program.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling2\\Program.cs",
+              "ToolTip": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-5\\ExceptionHandling2\\Program.cs",
+              "RelativeToolTip": "ExceptionHandling2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T16:15:42.954Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

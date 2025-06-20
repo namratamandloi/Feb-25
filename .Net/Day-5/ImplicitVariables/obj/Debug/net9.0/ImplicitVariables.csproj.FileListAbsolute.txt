@@ -1,0 +1,15 @@
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ImplicitVariables\bin\Debug\net9.0\ImplicitVariables.exe
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ImplicitVariables\bin\Debug\net9.0\ImplicitVariables.deps.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ImplicitVariables\bin\Debug\net9.0\ImplicitVariables.runtimeconfig.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ImplicitVariables\bin\Debug\net9.0\ImplicitVariables.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ImplicitVariables\bin\Debug\net9.0\ImplicitVariables.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ImplicitVariables\obj\Debug\net9.0\ImplicitVariables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ImplicitVariables\obj\Debug\net9.0\ImplicitVariables.AssemblyInfoInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ImplicitVariables\obj\Debug\net9.0\ImplicitVariables.AssemblyInfo.cs
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ImplicitVariables\obj\Debug\net9.0\ImplicitVariables.csproj.CoreCompileInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ImplicitVariables\obj\Debug\net9.0\ImplicitVariables.sourcelink.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ImplicitVariables\obj\Debug\net9.0\ImplicitVariables.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ImplicitVariables\obj\Debug\net9.0\refint\ImplicitVariables.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ImplicitVariables\obj\Debug\net9.0\ImplicitVariables.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ImplicitVariables\obj\Debug\net9.0\ImplicitVariables.genruntimeconfig.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-5\ImplicitVariables\obj\Debug\net9.0\ref\ImplicitVariables.dll

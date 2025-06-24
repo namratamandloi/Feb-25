@@ -1,0 +1,15 @@
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-6\LinqExample\bin\Debug\net9.0\LinqExample.exe
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-6\LinqExample\bin\Debug\net9.0\LinqExample.deps.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-6\LinqExample\bin\Debug\net9.0\LinqExample.runtimeconfig.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-6\LinqExample\bin\Debug\net9.0\LinqExample.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-6\LinqExample\bin\Debug\net9.0\LinqExample.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-6\LinqExample\obj\Debug\net9.0\LinqExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-6\LinqExample\obj\Debug\net9.0\LinqExample.AssemblyInfoInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-6\LinqExample\obj\Debug\net9.0\LinqExample.AssemblyInfo.cs
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-6\LinqExample\obj\Debug\net9.0\LinqExample.csproj.CoreCompileInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-6\LinqExample\obj\Debug\net9.0\LinqExample.sourcelink.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-6\LinqExample\obj\Debug\net9.0\LinqExample.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-6\LinqExample\obj\Debug\net9.0\refint\LinqExample.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-6\LinqExample\obj\Debug\net9.0\LinqExample.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-6\LinqExample\obj\Debug\net9.0\LinqExample.genruntimeconfig.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-6\LinqExample\obj\Debug\net9.0\ref\LinqExample.dll

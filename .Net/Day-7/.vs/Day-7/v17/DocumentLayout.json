@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-7\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5CEEF776-8E51-4F30-A12E-452F5BE53675}|LockIn9\\LockIn9.csproj|c:\\users\\namra\\onedrive\\desktop\\feb-25\\feb-25\\.net\\day-7\\lockin9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CEEF776-8E51-4F30-A12E-452F5BE53675}|LockIn9\\LockIn9.csproj|solutionrelative:lockin9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{594B811D-FC77-4D53-A8FD-B42732AD54DE}|SynchronizationInThreads\\SynchronizationInThreads.csproj|c:\\users\\namra\\onedrive\\desktop\\feb-25\\feb-25\\.net\\day-7\\synchronizationinthreads\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{594B811D-FC77-4D53-A8FD-B42732AD54DE}|SynchronizationInThreads\\SynchronizationInThreads.csproj|solutionrelative:synchronizationinthreads\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D8858D-762C-4779-913D-3172CE15F7D8}|ThreadExample3\\ThreadExample3.csproj|c:\\users\\namra\\onedrive\\desktop\\feb-25\\feb-25\\.net\\day-7\\threadexample3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93D8858D-762C-4779-913D-3172CE15F7D8}|ThreadExample3\\ThreadExample3.csproj|solutionrelative:threadexample3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7E460E88-50F1-42F3-981C-636220E144ED}|ThreadingExample2\\ThreadingExample2.csproj|c:\\users\\namra\\onedrive\\desktop\\feb-25\\feb-25\\.net\\day-7\\threadingexample2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E460E88-50F1-42F3-981C-636220E144ED}|ThreadingExample2\\ThreadingExample2.csproj|solutionrelative:threadingexample2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{340E10EC-2004-4FD6-A36F-673E8BE42EC0}|ThreadingExample\\ThreadingExample.csproj|c:\\users\\namra\\onedrive\\desktop\\feb-25\\feb-25\\.net\\day-7\\threadingexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{340E10EC-2004-4FD6-A36F-673E8BE42EC0}|ThreadingExample\\ThreadingExample.csproj|solutionrelative:threadingexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36577CF2-BD3C-44B9-86ED-FB1CC0500928}|Day-7\\Day-7.csproj|c:\\users\\namra\\onedrive\\desktop\\feb-25\\feb-25\\.net\\day-7\\day-7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36577CF2-BD3C-44B9-86ED-FB1CC0500928}|Day-7\\Day-7.csproj|solutionrelative:day-7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,39 +36,65 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-7\\ThreadingExample2\\Program.cs",
-              "RelativeDocumentMoniker": "ThreadingExample2\\Program.cs",
-              "ToolTip": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-7\\ThreadingExample2\\Program.cs",
-              "RelativeToolTip": "ThreadingExample2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-7\\LockIn9\\Program.cs",
+              "RelativeDocumentMoniker": "LockIn9\\Program.cs",
+              "ToolTip": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-7\\LockIn9\\Program.cs",
+              "RelativeToolTip": "LockIn9\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T11:03:53.399Z",
+              "WhenOpened": "2025-06-24T19:15:01.949Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-7\\ThreadingExample\\Program.cs",
-              "RelativeDocumentMoniker": "ThreadingExample\\Program.cs",
-              "ToolTip": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-7\\ThreadingExample\\Program.cs",
-              "RelativeToolTip": "ThreadingExample\\Program.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAkwGYAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-7\\SynchronizationInThreads\\Program.cs",
+              "RelativeDocumentMoniker": "SynchronizationInThreads\\Program.cs",
+              "ToolTip": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-7\\SynchronizationInThreads\\Program.cs",
+              "RelativeToolTip": "SynchronizationInThreads\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T09:38:35.858Z",
+              "WhenOpened": "2025-06-24T18:28:14.425Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-7\\Day-7\\Program.cs",
-              "RelativeDocumentMoniker": "Day-7\\Program.cs",
-              "ToolTip": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-7\\Day-7\\Program.cs",
-              "RelativeToolTip": "Day-7\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-7\\ThreadExample3\\Program.cs",
+              "RelativeDocumentMoniker": "ThreadExample3\\Program.cs",
+              "ToolTip": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-7\\ThreadExample3\\Program.cs",
+              "RelativeToolTip": "ThreadExample3\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T09:38:05.676Z",
+              "WhenOpened": "2025-06-24T18:09:58.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-7\\ThreadingExample2\\Program.cs",
+              "RelativeDocumentMoniker": "ThreadingExample2\\Program.cs",
+              "ToolTip": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-7\\ThreadingExample2\\Program.cs",
+              "RelativeToolTip": "ThreadingExample2\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T17:23:33.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-7\\ThreadingExample\\Program.cs",
+              "RelativeDocumentMoniker": "ThreadingExample\\Program.cs",
+              "ToolTip": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\Day-7\\ThreadingExample\\Program.cs",
+              "RelativeToolTip": "ThreadingExample\\Program.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAswCMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T09:38:35.858Z",
               "EditorCaption": ""
             }
           ]

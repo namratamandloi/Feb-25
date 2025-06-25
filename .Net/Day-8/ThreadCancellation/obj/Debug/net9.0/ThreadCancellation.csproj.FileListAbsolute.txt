@@ -1,0 +1,15 @@
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\ThreadCancellation\bin\Debug\net9.0\ThreadCancellation.exe
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\ThreadCancellation\bin\Debug\net9.0\ThreadCancellation.deps.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\ThreadCancellation\bin\Debug\net9.0\ThreadCancellation.runtimeconfig.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\ThreadCancellation\bin\Debug\net9.0\ThreadCancellation.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\ThreadCancellation\bin\Debug\net9.0\ThreadCancellation.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\ThreadCancellation\obj\Debug\net9.0\ThreadCancellation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\ThreadCancellation\obj\Debug\net9.0\ThreadCancellation.AssemblyInfoInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\ThreadCancellation\obj\Debug\net9.0\ThreadCancellation.AssemblyInfo.cs
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\ThreadCancellation\obj\Debug\net9.0\ThreadCancellation.csproj.CoreCompileInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\ThreadCancellation\obj\Debug\net9.0\ThreadCancellation.sourcelink.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\ThreadCancellation\obj\Debug\net9.0\ThreadCancellation.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\ThreadCancellation\obj\Debug\net9.0\refint\ThreadCancellation.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\ThreadCancellation\obj\Debug\net9.0\ThreadCancellation.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\ThreadCancellation\obj\Debug\net9.0\ThreadCancellation.genruntimeconfig.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\ThreadCancellation\obj\Debug\net9.0\ref\ThreadCancellation.dll

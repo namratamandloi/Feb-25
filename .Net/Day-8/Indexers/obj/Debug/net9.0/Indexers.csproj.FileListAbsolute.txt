@@ -1,0 +1,15 @@
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\Indexers\bin\Debug\net9.0\Indexers.exe
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\Indexers\bin\Debug\net9.0\Indexers.deps.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\Indexers\bin\Debug\net9.0\Indexers.runtimeconfig.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\Indexers\bin\Debug\net9.0\Indexers.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\Indexers\bin\Debug\net9.0\Indexers.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\Indexers\obj\Debug\net9.0\Indexers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\Indexers\obj\Debug\net9.0\Indexers.AssemblyInfoInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\Indexers\obj\Debug\net9.0\Indexers.AssemblyInfo.cs
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\Indexers\obj\Debug\net9.0\Indexers.csproj.CoreCompileInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\Indexers\obj\Debug\net9.0\Indexers.sourcelink.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\Indexers\obj\Debug\net9.0\Indexers.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\Indexers\obj\Debug\net9.0\refint\Indexers.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\Indexers\obj\Debug\net9.0\Indexers.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\Indexers\obj\Debug\net9.0\Indexers.genruntimeconfig.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\Indexers\obj\Debug\net9.0\ref\Indexers.dll

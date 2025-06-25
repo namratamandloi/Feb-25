@@ -1,0 +1,15 @@
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-7\LockIn9\obj\Debug\net9.0\LockIn9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-7\LockIn9\obj\Debug\net9.0\LockIn9.AssemblyInfoInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-7\LockIn9\obj\Debug\net9.0\LockIn9.AssemblyInfo.cs
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-7\LockIn9\obj\Debug\net9.0\LockIn9.csproj.CoreCompileInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-7\LockIn9\obj\Debug\net9.0\LockIn9.sourcelink.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-7\LockIn9\bin\Debug\net9.0\LockIn9.exe
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-7\LockIn9\bin\Debug\net9.0\LockIn9.deps.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-7\LockIn9\bin\Debug\net9.0\LockIn9.runtimeconfig.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-7\LockIn9\bin\Debug\net9.0\LockIn9.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-7\LockIn9\bin\Debug\net9.0\LockIn9.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-7\LockIn9\obj\Debug\net9.0\LockIn9.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-7\LockIn9\obj\Debug\net9.0\refint\LockIn9.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-7\LockIn9\obj\Debug\net9.0\LockIn9.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-7\LockIn9\obj\Debug\net9.0\LockIn9.genruntimeconfig.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-7\LockIn9\obj\Debug\net9.0\ref\LockIn9.dll

@@ -1,0 +1,15 @@
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\TPLExample\bin\Debug\net9.0\TPLExample.exe
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\TPLExample\bin\Debug\net9.0\TPLExample.deps.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\TPLExample\bin\Debug\net9.0\TPLExample.runtimeconfig.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\TPLExample\bin\Debug\net9.0\TPLExample.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\TPLExample\bin\Debug\net9.0\TPLExample.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\TPLExample\obj\Debug\net9.0\TPLExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\TPLExample\obj\Debug\net9.0\TPLExample.AssemblyInfoInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\TPLExample\obj\Debug\net9.0\TPLExample.AssemblyInfo.cs
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\TPLExample\obj\Debug\net9.0\TPLExample.csproj.CoreCompileInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\TPLExample\obj\Debug\net9.0\TPLExample.sourcelink.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\TPLExample\obj\Debug\net9.0\TPLExample.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\TPLExample\obj\Debug\net9.0\refint\TPLExample.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\TPLExample\obj\Debug\net9.0\TPLExample.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\TPLExample\obj\Debug\net9.0\TPLExample.genruntimeconfig.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\TPLExample\obj\Debug\net9.0\ref\TPLExample.dll

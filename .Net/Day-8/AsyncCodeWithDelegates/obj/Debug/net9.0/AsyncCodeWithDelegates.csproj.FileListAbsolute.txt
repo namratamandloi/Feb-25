@@ -1,0 +1,15 @@
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\AsyncCodeWithDelegates\obj\Debug\net9.0\AsyncCodeWithDelegates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\AsyncCodeWithDelegates\obj\Debug\net9.0\AsyncCodeWithDelegates.AssemblyInfoInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\AsyncCodeWithDelegates\obj\Debug\net9.0\AsyncCodeWithDelegates.AssemblyInfo.cs
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\AsyncCodeWithDelegates\obj\Debug\net9.0\AsyncCodeWithDelegates.csproj.CoreCompileInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\AsyncCodeWithDelegates\obj\Debug\net9.0\AsyncCodeWithDelegates.sourcelink.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\AsyncCodeWithDelegates\bin\Debug\net9.0\AsyncCodeWithDelegates.exe
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\AsyncCodeWithDelegates\bin\Debug\net9.0\AsyncCodeWithDelegates.deps.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\AsyncCodeWithDelegates\bin\Debug\net9.0\AsyncCodeWithDelegates.runtimeconfig.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\AsyncCodeWithDelegates\bin\Debug\net9.0\AsyncCodeWithDelegates.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\AsyncCodeWithDelegates\bin\Debug\net9.0\AsyncCodeWithDelegates.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\AsyncCodeWithDelegates\obj\Debug\net9.0\AsyncCodeWithDelegates.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\AsyncCodeWithDelegates\obj\Debug\net9.0\refint\AsyncCodeWithDelegates.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\AsyncCodeWithDelegates\obj\Debug\net9.0\AsyncCodeWithDelegates.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\AsyncCodeWithDelegates\obj\Debug\net9.0\AsyncCodeWithDelegates.genruntimeconfig.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-8\AsyncCodeWithDelegates\obj\Debug\net9.0\ref\AsyncCodeWithDelegates.dll

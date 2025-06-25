@@ -1,0 +1,15 @@
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-9\FileHandlingInCore\bin\Debug\net9.0\FileHandlingInCore.exe
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-9\FileHandlingInCore\bin\Debug\net9.0\FileHandlingInCore.deps.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-9\FileHandlingInCore\bin\Debug\net9.0\FileHandlingInCore.runtimeconfig.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-9\FileHandlingInCore\bin\Debug\net9.0\FileHandlingInCore.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-9\FileHandlingInCore\bin\Debug\net9.0\FileHandlingInCore.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-9\FileHandlingInCore\obj\Debug\net9.0\FileHandlingInCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-9\FileHandlingInCore\obj\Debug\net9.0\FileHandlingInCore.AssemblyInfoInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-9\FileHandlingInCore\obj\Debug\net9.0\FileHandlingInCore.AssemblyInfo.cs
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-9\FileHandlingInCore\obj\Debug\net9.0\FileHandlingInCore.csproj.CoreCompileInputs.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-9\FileHandlingInCore\obj\Debug\net9.0\FileHandlingInCore.sourcelink.json
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-9\FileHandlingInCore\obj\Debug\net9.0\FileHandlingInCore.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-9\FileHandlingInCore\obj\Debug\net9.0\refint\FileHandlingInCore.dll
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-9\FileHandlingInCore\obj\Debug\net9.0\FileHandlingInCore.pdb
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-9\FileHandlingInCore\obj\Debug\net9.0\FileHandlingInCore.genruntimeconfig.cache
+C:\Users\namra\OneDrive\Desktop\Feb-25\Feb-25\.Net\Day-9\FileHandlingInCore\obj\Debug\net9.0\ref\FileHandlingInCore.dll

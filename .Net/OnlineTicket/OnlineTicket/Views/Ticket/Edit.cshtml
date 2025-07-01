@@ -1,0 +1,28 @@
+﻿@model OnlineTicketSystem.Models.Ticket
+
+<h2>Edit Ticket</h2>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label>Customer Name</label>
+        <input asp-for="CustomerName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Event Name</label>
+        <input asp-for="EventName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Booking Date</label>
+        <input asp-for="BookingDate" type="date" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Number of Tickets</label>
+        <input asp-for="NumberOfTickets" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Status</label>
+        <input asp-for="Status" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

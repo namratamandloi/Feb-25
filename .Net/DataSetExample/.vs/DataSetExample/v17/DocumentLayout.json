@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\DataSetExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D2B22B5-CBF3-4C2B-8F8D-6E78E359807C}|DataSetExample\\DataSetExample.csproj|c:\\users\\namra\\onedrive\\desktop\\feb-25\\feb-25\\.net\\datasetexample\\datasetexample\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D2B22B5-CBF3-4C2B-8F8D-6E78E359807C}|DataSetExample\\DataSetExample.csproj|solutionrelative:datasetexample\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D2B22B5-CBF3-4C2B-8F8D-6E78E359807C}|DataSetExample\\DataSetExample.csproj|c:\\users\\namra\\onedrive\\desktop\\feb-25\\feb-25\\.net\\datasetexample\\datasetexample\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D2B22B5-CBF3-4C2B-8F8D-6E78E359807C}|DataSetExample\\DataSetExample.csproj|solutionrelative:datasetexample\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\DataSetExample\\DataSetExample\\Form1.cs",
+              "RelativeDocumentMoniker": "DataSetExample\\Form1.cs",
+              "ToolTip": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\DataSetExample\\DataSetExample\\Form1.cs",
+              "RelativeToolTip": "DataSetExample\\Form1.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwJIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T04:42:08.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\DataSetExample\\DataSetExample\\Form1.cs",
+              "RelativeDocumentMoniker": "DataSetExample\\Form1.cs",
+              "ToolTip": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\DataSetExample\\DataSetExample\\Form1.cs [Design]",
+              "RelativeToolTip": "DataSetExample\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T04:35:26.131Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

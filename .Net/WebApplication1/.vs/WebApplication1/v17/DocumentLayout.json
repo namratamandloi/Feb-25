@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86BC0E10-E604-4902-B95A-FA0D701EDC16}|WebApplication1\\WebApplication1.csproj|c:\\users\\namra\\onedrive\\desktop\\feb-25\\feb-25\\.net\\webapplication1\\webapplication1\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86BC0E10-E604-4902-B95A-FA0D701EDC16}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86BC0E10-E604-4902-B95A-FA0D701EDC16}|WebApplication1\\WebApplication1.csproj|c:\\users\\namra\\onedrive\\desktop\\feb-25\\feb-25\\.net\\webapplication1\\webapplication1\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86BC0E10-E604-4902-B95A-FA0D701EDC16}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86BC0E10-E604-4902-B95A-FA0D701EDC16}|WebApplication1\\WebApplication1.csproj|c:\\users\\namra\\onedrive\\desktop\\feb-25\\feb-25\\.net\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86BC0E10-E604-4902-B95A-FA0D701EDC16}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86BC0E10-E604-4902-B95A-FA0D701EDC16}|WebApplication1\\WebApplication1.csproj|c:\\users\\namra\\onedrive\\desktop\\feb-25\\feb-25\\.net\\webapplication1\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86BC0E10-E604-4902-B95A-FA0D701EDC16}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86BC0E10-E604-4902-B95A-FA0D701EDC16}|WebApplication1\\WebApplication1.csproj|c:\\users\\namra\\onedrive\\desktop\\feb-25\\feb-25\\.net\\webapplication1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86BC0E10-E604-4902-B95A-FA0D701EDC16}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86BC0E10-E604-4902-B95A-FA0D701EDC16}|WebApplication1\\WebApplication1.csproj|c:\\users\\namra\\onedrive\\desktop\\feb-25\\feb-25\\.net\\webapplication1\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86BC0E10-E604-4902-B95A-FA0D701EDC16}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86BC0E10-E604-4902-B95A-FA0D701EDC16}|WebApplication1\\WebApplication1.csproj|c:\\users\\namra\\onedrive\\desktop\\feb-25\\feb-25\\.net\\webapplication1\\webapplication1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86BC0E10-E604-4902-B95A-FA0D701EDC16}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86BC0E10-E604-4902-B95A-FA0D701EDC16}|WebApplication1\\WebApplication1.csproj|c:\\users\\namra\\onedrive\\desktop\\feb-25\\feb-25\\.net\\webapplication1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{86BC0E10-E604-4902-B95A-FA0D701EDC16}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\WebApplication1\\WebApplication1\\Views\\Default\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Default\\Index.cshtml",
+              "ToolTip": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\WebApplication1\\WebApplication1\\Views\\Default\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Default\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAADwvzgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T11:10:50.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DefaultController.cs",
+              "DocumentMoniker": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\WebApplication1\\WebApplication1\\Controllers\\DefaultController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\DefaultController.cs",
+              "ToolTip": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\WebApplication1\\WebApplication1\\Controllers\\DefaultController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\DefaultController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T10:58:11.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T09:28:23.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T10:10:32.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T09:56:40.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T10:32:10.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\WebApplication1\\WebApplication1\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\WebApplication1\\WebApplication1\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T10:31:10.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "C:\\Users\\namra\\OneDrive\\Desktop\\Feb-25\\Feb-25\\.Net\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-28T09:27:48.434Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

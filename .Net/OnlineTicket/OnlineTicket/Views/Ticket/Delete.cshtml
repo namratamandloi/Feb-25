@@ -1,0 +1,29 @@
+﻿@model OnlineTicketSystem.Models.Ticket
+
+<h2>Delete Ticket</h2>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label>Customer Name</label>
+        <input asp-for="CustomerName" class="form-control" disabled />
+    </div>
+    <div class="form-group">
+        <label>Event Name</label>
+        <input asp-for="EventName" class="form-control" disabled />
+    </div>
+    <div class="form-group">
+        <label>Booking Date</label>
+        <input asp-for="BookingDate" class="form-control" disabled />
+    </div>
+    <div class="form-group">
+        <label>Number of Tickets</label>
+        <input asp-for="NumberOfTickets" class="form-control" disabled />
+    </div>
+    <div class="form-group">
+        <label>Status</label>
+        <input asp-for="Status" class="form-control" disabled />
+    </div>
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

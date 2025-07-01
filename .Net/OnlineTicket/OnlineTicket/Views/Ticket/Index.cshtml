@@ -1,0 +1,32 @@
+﻿@model IEnumerable<OnlineTicketSystem.Models.Ticket>
+
+<h2>All Bookings</h2>
+<a asp-action="Create" class="btn btn-success">Add New Ticket</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Customer</th>
+            <th>Event</th>
+            <th>Date</th>
+            <th>Tickets</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.CustomerName</td>
+                <td>@item.EventName</td>
+                <td>@item.BookingDate.ToShortDateString()</td>
+                <td>@item.NumberOfTickets</td>
+                <td>@item.Status</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
